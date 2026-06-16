@@ -79,20 +79,6 @@ h1 {
 .legend .l-current { background: var(--accent); }
 .legend .l-pending { background: var(--pending); }
 
-/* Resource bar */
-.resources {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px;
-  margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--line);
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: .82rem;
-}
-.resources-label { color: var(--muted); font-weight: 700; letter-spacing: .02em; }
-.resources a {
-  color: var(--ink-soft); text-decoration: none;
-  border: 1px solid var(--line); background: var(--card);
-  padding: 5px 11px; border-radius: 999px; transition: border-color .15s, color .15s;
-}
-.resources a:hover { color: var(--accent); border-color: var(--accent); }
-
 /* Sections */
 .section-title {
   font-family: "Helvetica Neue", Arial, sans-serif;

@@ -1,34 +1,7 @@
 {
   "session": "45-1",
-  "generatedAt": "2026-06-16T02:00:47.995Z",
+  "generatedAt": "2026-06-16T02:22:59.009Z",
   "source": "Parliament of Canada — LEGISinfo · news via Google News",
-  "resources": [
-    {
-      "label": "ParlVU — watch Parliament live",
-      "url": "https://parlvu.parl.gc.ca/Harmony/en/",
-      "note": "House, Senate & committee video (live and archived)"
-    },
-    {
-      "label": "LEGISinfo — all bills",
-      "url": "https://www.parl.ca/legisinfo/en/bills",
-      "note": "Official status of every bill"
-    },
-    {
-      "label": "House of Commons",
-      "url": "https://www.ourcommons.ca/en",
-      "note": "Debates (Hansard), votes, committees"
-    },
-    {
-      "label": "Senate of Canada",
-      "url": "https://sencanada.ca/en/",
-      "note": "Senate proceedings and committees"
-    },
-    {
-      "label": "Office of the Privacy Commissioner",
-      "url": "https://www.priv.gc.ca/en/",
-      "note": "Independent privacy oversight"
-    }
-  ],
   "tracked": [
     {
       "billNumber": "C-36",

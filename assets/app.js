@@ -49,22 +49,6 @@ function buildLegend() {
     <span><i class="l-pending"></i> Not yet reached</span>`;
 }
 
-function renderResources(resources) {
-  const nav = document.getElementById("resources");
-  if (!resources || !resources.length) {
-    nav.hidden = true;
-    return;
-  }
-  nav.innerHTML =
-    '<span class="resources-label">Watch &amp; verify:</span>' +
-    resources
-      .map(
-        (r) =>
-          `<a href="${r.url}" target="_blank" rel="noopener" title="${r.note || ""}">${r.label}</a>`
-      )
-      .join("");
-}
-
 function relativeDay(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return "";
@@ -207,7 +191,6 @@ async function refresh() {
   }
 
   const { data, live } = result;
-  renderResources(data.resources);
   renderInto("trackedGrid", data.tracked || []);
 
   const discovered = data.discovered || [];

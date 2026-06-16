@@ -72,13 +72,4 @@ module.exports = {
     "lawful access",
     "interception",
   ],
-
-  // Standing, non-partisan reference links shown in the page's resource bar.
-  resources: [
-    { label: "ParlVU — watch Parliament live", url: "https://parlvu.parl.gc.ca/Harmony/en/", note: "House, Senate & committee video (live and archived)" },
-    { label: "LEGISinfo — all bills", url: "https://www.parl.ca/legisinfo/en/bills", note: "Official status of every bill" },
-    { label: "House of Commons", url: "https://www.ourcommons.ca/en", note: "Debates (Hansard), votes, committees" },
-    { label: "Senate of Canada", url: "https://sencanada.ca/en/", note: "Senate proceedings and committees" },
-    { label: "Office of the Privacy Commissioner", url: "https://www.priv.gc.ca/en/", note: "Independent privacy oversight" },
-  ],
 };

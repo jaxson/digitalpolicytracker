@@ -206,7 +206,6 @@ exports.handler = async () => {
         session: watchlist.session,
         generatedAt: new Date().toISOString(),
         source: "Parliament of Canada — LEGISinfo · news via Google News",
-        resources: watchlist.resources || [],
         tracked,
         discovered,
       }),
