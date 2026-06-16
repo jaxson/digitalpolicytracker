@@ -222,6 +222,7 @@ h1 {
 .site-footer { border-top: 1px solid var(--line); margin-top: 56px; padding: 28px 0 48px; }
 .site-footer p { font-family: "Helvetica Neue", Arial, sans-serif; font-size: .82rem; color: var(--ink-soft); margin: 0 0 6px; }
 .site-footer a { color: var(--accent); }
+.site-footer .independence { color: var(--ink); font-weight: 700; }
 .muted { color: var(--muted) !important; }
 
 @media (max-width: 560px) {

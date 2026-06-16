@@ -52,14 +52,10 @@ netlify dev        # full experience, live function at /api/bills
 python3 -m http.server 8000
 ```
 
-## Deploy
+## Independence
 
-1. Push this repo to GitHub.
-2. In Netlify: New site from Git → pick the repo. `netlify.toml` sets publish dir and
-   the functions dir; no build step needed.
-3. Add the custom domain `digitalpolicytracker.ca` in Netlify → Domain settings, then
-   point the domain's DNS at Netlify (the `.ca` must be registered first via a CIRA
-   registrar). Netlify provisions HTTPS automatically.
-
-Data source: Parliament of Canada — LEGISinfo. Editorial notes are independent analysis,
-not legal advice.
+Digital Policy Tracker is a non-partisan, non-profit, independent resource. It is not
+affiliated with the Government of Canada, Parliament, any political party, or any bill's
+sponsors or opponents. Legislative status comes directly from the Parliament of Canada's
+LEGISinfo feed; news is aggregated across outlets. Editorial notes are independent
+analysis, not legal advice.
