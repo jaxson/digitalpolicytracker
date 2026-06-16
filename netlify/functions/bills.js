@@ -6,6 +6,7 @@
 // browser access, so this server-side proxy is what makes the tracker real-time.
 
 const watchlist = require("./watchlist");
+const { summaries, CAVEAT } = require("./summaries");
 
 const FEED = (session) =>
   `https://www.parl.ca/legisinfo/en/bills/json?parlsession=${session}`;
@@ -226,6 +227,8 @@ exports.handler = async () => {
       }
       const shaped = shape(raw, ed, watchlist.session);
       shaped.newsQuery = ed.newsQuery || `"Bill ${ed.billNumber}" Canada`;
+      const sum = summaries[ed.billNumber];
+      if (sum) shaped.aiSummary = { ...sum, caveat: CAVEAT };
       return shaped;
     });
 

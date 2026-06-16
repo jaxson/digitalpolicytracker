@@ -117,6 +117,30 @@ function renderCard(bill) {
   });
   if (!bill.tags || !bill.tags.length) tags.remove();
 
+  // AI summary (expandable)
+  const aiWrap = node.querySelector(".ai-summary");
+  if (bill.aiSummary && bill.aiSummary.overview) {
+    const btn = aiWrap.querySelector(".ai-summary-btn");
+    const panel = aiWrap.querySelector(".ai-summary-panel");
+    aiWrap.querySelector(".ai-overview").textContent = bill.aiSummary.overview;
+    const pts = aiWrap.querySelector(".ai-points");
+    (bill.aiSummary.points || []).forEach((p) => {
+      const li = document.createElement("li");
+      li.textContent = p;
+      pts.appendChild(li);
+    });
+    aiWrap.querySelector(".ai-caveat").textContent = bill.aiSummary.caveat || "";
+    btn.addEventListener("click", () => {
+      const open = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", String(!open));
+      panel.hidden = open;
+      aiWrap.classList.toggle("open", !open);
+      btn.querySelector(".ai-btn-label").textContent = open ? "AI summary" : "Hide AI summary";
+    });
+  } else {
+    aiWrap.remove();
+  }
+
   // News
   const news = node.querySelector(".news");
   const newsList = node.querySelector(".news-list");

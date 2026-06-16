@@ -173,6 +173,49 @@ h1 {
   padding: 3px 9px; border-radius: 999px;
 }
 
+/* AI summary — the most prominent action on a card */
+.ai-summary { margin: 4px 0 18px; }
+.ai-summary-btn {
+  width: 100%;
+  display: flex; align-items: center; gap: 10px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: .95rem; font-weight: 700; letter-spacing: .01em;
+  color: #fff; cursor: pointer;
+  background: linear-gradient(180deg, #c12222 0%, var(--accent) 100%);
+  border: 1px solid #9a1414;
+  padding: 12px 16px; border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(20,23,26,.04), 0 6px 16px rgba(176,23,23,.20);
+  transition: filter .15s ease, box-shadow .15s ease, transform .1s ease;
+}
+.ai-summary-btn:hover { filter: brightness(1.06); box-shadow: 0 2px 2px rgba(20,23,26,.05), 0 10px 22px rgba(176,23,23,.28); }
+.ai-summary-btn:active { transform: translateY(1px); }
+.ai-summary-btn:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 2px; }
+.ai-spark { font-size: 1.05rem; line-height: 1; }
+.ai-btn-label { flex: 1; text-align: left; }
+.ai-chevron { font-size: .8rem; transition: transform .2s ease; opacity: .9; }
+.ai-summary.open .ai-chevron { transform: rotate(180deg); }
+
+.ai-summary-panel {
+  margin-top: 12px; padding: 16px 18px;
+  background: #fbf6f0; border: 1px solid var(--line);
+  border-left: 3px solid var(--accent); border-radius: 10px;
+  animation: aiReveal .22s ease;
+}
+@keyframes aiReveal { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+.ai-overview { margin: 0 0 14px; font-size: .98rem; color: var(--ink); }
+.ai-points-head {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: .72rem;
+  text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 8px;
+}
+.ai-points { margin: 0 0 14px; padding-left: 18px; }
+.ai-points li { font-size: .92rem; color: var(--ink-soft); margin-bottom: 8px; }
+.ai-points li:last-child { margin-bottom: 0; }
+.ai-caveat {
+  margin: 0; padding-top: 12px; border-top: 1px dotted var(--line);
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: .76rem;
+  color: var(--muted); font-style: italic;
+}
+
 /* News */
 .news { margin: 0 0 18px; padding: 14px 0 4px; border-top: 1px dotted var(--line); }
 .news-head {

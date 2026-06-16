@@ -1,6 +1,6 @@
 {
   "session": "45-1",
-  "generatedAt": "2026-06-16T02:47:27.676Z",
+  "generatedAt": "2026-06-16T18:22:13.845Z",
   "source": "Parliament of Canada — LEGISinfo · news via Google News",
   "tracked": [
     {
@@ -27,7 +27,7 @@
       "isGovernment": true,
       "currentStatus": "At second reading in the House of Commons",
       "latestActivity": "Introduction and first reading on June 15, 2026 (House of Commons)",
-      "latestActivityDate": "2026-06-15T11:00:00-04:00",
+      "latestActivityDate": "2026-06-15T11:18:34.507-04:00",
       "completedStage": "First reading",
       "royalAssent": null,
       "stages": [
@@ -35,7 +35,7 @@
           "key": "house1",
           "label": "House — 1st reading",
           "complete": true,
-          "date": "2026-06-15T11:00:00-04:00"
+          "date": "2026-06-15T11:18:34.507-04:00"
         },
         {
           "key": "house2",
@@ -93,10 +93,10 @@
           "date": "Mon, 15 Jun 2026 22:41:20 GMT"
         },
         {
-          "title": "With update to Canada’s privacy laws, feds are building a “super-regulator”",
-          "source": "BetaKit",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNVZqRENwNmg4UUhrZHFrb2FQWUtEb3Z3YUdrQjQ1Vy04NG13UjljZUFjMlhaa2NfeTc4aGFRWWkxbWFFSXZSQ2NadFNTX3NicGxiTXBaV2RDbWc2V0F6RmpTSkxEVmtucGVlRkQwTlVHVVZucUpCbGhmOUhiVktYbFJmT2JMTy0wNmhvX3lfd0FUYzZQclNz?oc=5",
-          "date": "Tue, 16 Jun 2026 00:18:11 GMT"
+          "title": "Canada's Bill C-36 introduces privacy reforms, enforcement changes",
+          "source": "IAPP",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZG0zY1JGZWZVNjdjMnBXeXY0M2V2dmRkaGR1RWxuWmRsX2JNYnBmVzZrYVdSY2ppUVUwNk5qYWFoQzRVc0duNU1mS3hMWUJDSmkzdHFrT3V0a3NTUHJSZ0UwYXBkbUg1Q01nN2NSbzRxc1lUTkNaV2Nwdl84LTcwbmhfcm15am1FeEhmOUxCUmRtY0k?oc=5",
+          "date": "Tue, 16 Jun 2026 17:53:03 GMT"
         },
         {
           "title": "New privacy bill would give Canadians right to request companies delete AI deepfakes",
@@ -104,7 +104,19 @@
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd08zZWhfRWN1WUtCZ1ZhR2ZMTmJnVXVaT3AzT1lMVS1Uc212endUZlBROGExODREeDdNTkIyektJUlBCUmpZdE1LXzNYaFl5N05ZVk5rcEtxbzJUQXhvZkFpUURDTUJXcXJqeWd3QzVXYnE2THdHVW1sRlBEMFE1d3BCaTBDT29BMWx4M0JVVlVpbndTcnp0dg?oc=5",
           "date": "Mon, 15 Jun 2026 22:59:50 GMT"
         }
-      ]
+      ],
+      "aiSummary": {
+        "overview": "Bill C-36 rewrites the rules for how private companies handle Canadians' personal data. It enacts a new Protecting Privacy and Consumer Data Act, replaces the private-sector half of the 25-year-old PIPEDA, and stands up a new regulator to enforce the regime.",
+        "points": [
+          "Enacts the Protecting Privacy and Consumer Data Act to govern how organizations collect, use and disclose personal information in commercial activities; the rest of PIPEDA is renamed the Electronic Documents Act.",
+          "Strengthens individual rights over personal data — reporting highlights new rights to request deletion of personal information and to address AI-generated deepfakes.",
+          "Introduces rules on automated decision-making (AI) and on so-called surveillance pricing, where prices are personalized using a person's data.",
+          "Creates a new Digital Safety and Data Protection Commission of Canada to oversee private-sector compliance; the Privacy Commissioner continues to oversee federal public-sector privacy.",
+          "Makes consequential amendments to several federal statutes, including the Access to Information Act, the Privacy Act and the Competition Act.",
+          "Sponsored by the Minister of Artificial Intelligence and Digital Innovation and tabled June 15, 2026; coverage describes it as the largest overhaul of Canadian private-sector privacy law in a generation."
+        ],
+        "caveat": "AI-generated from the bill's official summary and text. A plain-language aid, not legal advice — confirm against the full bill before relying on it."
+      }
     },
     {
       "billNumber": "C-22",
@@ -190,6 +202,12 @@
       "curated": true,
       "news": [
         {
+          "title": "Ottawa moves to curb debate to push through controversial lawful access bill",
+          "source": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHp1MkpnWmM2bVVWbDBSZlFqNm5WeDZaY3FIWGJvenVwSmtaRm92b3kzcldEUDNBMVFjUmVLSGdtVXNXQjlPRkx0RXRVMXVfTm9qb19iMFAyeV9VYmVNWEhrbTdqeU9YM0tMNDBmdTlHbXNIclMwLUNsTGViMlpYaU9ERExDd2ktVnlKRnZWN2lDVU5waUhvdkhR?oc=5",
+          "date": "Tue, 16 Jun 2026 17:46:40 GMT"
+        },
+        {
           "title": "Liberals to amend police data interception bill following searing criticism",
           "source": "CBC",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc1d3ZWhXUVdQNGhYcTVEZ3NJV0NxZzd4ekZ4dFMwdi1tNkVKcm50c2RtbnpHS09sQl92eDBOYVMtdTlKVVp2YVJBakhtUTlCeVBZVDVaWHV3bWMtY2J0aTVsczVVMllueDBFQ1d2M25qNVJ4VThDTDR6cExZLWR6TGtPRQ?oc=5",
@@ -200,14 +218,20 @@
           "source": "Global News",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDNITHBuWFI2d3ozOVJqdm9zSVVkWFVsYnJQZVMwX3VuLVlRNGIydnRCS2JDQnZSQ09JcHIxWFF5OW1PVHl2ZGZCQUQ4VGNMOXZnTndPb3ZLMzdNd2NDX1FFbTFBVVBITXNMMm9DM3k4aE9vZG9yT2EwdjFvT2NiR1c2b1Q2WENIMUhZZk5wYw?oc=5",
           "date": "Thu, 04 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Search engine DuckDuckGo would withdraw VPN from Canada if lawful-access bill passes",
-          "source": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc3VQeW5QemdxRVJzNnRZUzZFWHRONExBOEJUOWc1ZnhjeTFIVTdnaHBDVDBjNEJuLVRuQXFkeXkxd21oS1lPRVRqcl96SnUzaVdkMm0wSEJPNDFsR0MxTFlMckY2Tms3d0RIOEN4MXREeTl1QkQtSXhZRHVMMHVPbFppRklOT3FybktmRTVWaXN0djVYQWRaU3o4S3lGZw?oc=5",
-          "date": "Thu, 28 May 2026 07:00:00 GMT"
         }
-      ]
+      ],
+      "aiSummary": {
+        "overview": "Bill C-22 modernizes 'lawful access' — the rules letting police and intelligence agencies obtain digital information. It updates investigative powers in several existing laws and creates a new obligation for service providers to be able to hand over data when legally compelled.",
+        "points": [
+          "Part 1 amends the Criminal Code, the CSIS Act, the Mutual Legal Assistance in Criminal Matters Act, the Controlled Drugs and Substances Act and the Cannabis Act to update tools for gathering information in investigations.",
+          "Part 2 enacts the Supporting Authorized Access to Information Act, requiring electronic service providers to be technically able to facilitate authorized access to information for police and CSIS when legally authorized.",
+          "Reintroduces lawful-access measures that were originally part of the Strong Borders Act (Bill C-2) and were split out after criticism.",
+          "The government states the bill does not require encryption 'backdoors'; civil-liberties groups, technologists and major technology firms have raised privacy and cybersecurity concerns, including over metadata retention.",
+          "New access orders under the Act are subject to approval by the Intelligence Commissioner.",
+          "Part 3 requires a parliamentary review of Parts 1 and 2 after they come into force."
+        ],
+        "caveat": "AI-generated from the bill's official summary and text. A plain-language aid, not legal advice — confirm against the full bill before relying on it."
+      }
     },
     {
       "billNumber": "C-34",
@@ -293,16 +317,16 @@
       "curated": true,
       "news": [
         {
-          "title": "Taking Stock of Bill C-34: Five Things to Know About the Government's Plan for a Kids' Social Media Ban, Mandated Age Verification, and AI Chatbot Rules",
-          "source": "Michael Geist",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVDNxcTFHM2N4TnBzM2xxVndMVUFmX2hqdUlxSmM2SjNVYjNZT0lPS3U0T2FZTjFrLTFVVmdsZXhqNkQxaTBIcWFBTzAydWgtcldORGZDY1R5Uk5feTAwck1lSDVha2tCM3QwTVdRVjVlZWMxOGg2UEdQMmk0VjVlLXRFVk1NampZXzJaZTFwZlV1N2tObHpNWEZvWGxobDdBSUVkTEJSRW5qWHk4cVB3ZEdQTTJZMjRlczFQRDNKQ3hOQlE4bE5sdlJoOVZvWmNvWTNOejNEZmp1LUowcXd4N0N2bkhFSEdSbFdBNWxPaVhHTjR5RkJHNWlpaEE2b19BZGxiRkdtUlRrN2dYNk1lZFhn?oc=5",
-          "date": "Sat, 13 Jun 2026 13:36:49 GMT"
-        },
-        {
           "title": "CCLA warns against risks to freedom of expression and privacy posed by Bill C-34, the Safe Social Media Act",
           "source": "Canadian Civil Liberties Association",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXNtdUZGM3NXWDBERm5xMzdoMlRLb09pZDZpQkpIbVNpYUxQMkZFVlpHWTNaMENZYkU0ZjlXSmNCZlBzLVVTUzFCRDFUb1NlYU9xOTlIUVlxdzJYdGFfeWNSbmxjVTdNRl9xcWk3ZWNpSkNEZ1RueGU5d0prU01zRWk1Wm0wb0I4X0h5dlFuMjh0M0FBOWZOMy1XdW5CQUZ2ZUxmcVo1SEhDNmFCMmd5LVRCMFFEVGM1YTg3djlXbG9OTXI4MWhUeGViNk04Q0RlT05fSA?oc=5",
           "date": "Thu, 11 Jun 2026 14:00:39 GMT"
+        },
+        {
+          "title": "Everything All At Once: Bill C-34 Combines Platform Duties, a Kids' Social Media Ban, AI Chatbot Regulation, and a Powerful Digital Safety Commission Into a Risky \"Trust Us\" Bet",
+          "source": "Michael Geist",
+          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQRTdPWmpiLVpKN3lnd0NxX1RNeXNLcXJ6RVB3T1ZJbkVGYVlzS2U3UXJzMFdhYlVWNGNxekdWUjFzNE9Ia0hadVBxWFZKdzE5RV9BN2VULUotTm82VVRhYWNSeTY0R1dXbTcwcGJYd0VlcGhoYXR1VlZjbHlMRXNJQnBHdTJoa2M5azg4ZHNtOVFGcVBEczRZbDhHa1VHYWdwTExDeDRtQTVwMnlRMV9HajNmV0llZVhSeHp0SEV2NWdXVkJuT1Nibk9SazhrU0hRTHRwaC1yRHl2RU9tMzlrSnVSQXQzbGI0bEFVNE9uNFZSOGVtVXhxbWVseHlxYnp0dU11a0dmc1ltVWN2SEFBem1CLTVaSWNJQ3puaW9NbFJpcG9ZMmR2bWFqeW9kODVi?oc=5",
+          "date": "Wed, 10 Jun 2026 23:10:12 GMT"
         },
         {
           "title": "Bill C-34 at a glance: Canada’s new Digital Safety Act",
@@ -310,7 +334,19 @@
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNHNyUEhNd0RqRERsd1h1bGcxVnBSSEp5X2tMX1pTMG0tazFqd1ZWRDFiSlhXLWJDOGk2ZFdJVGVSUmF3UlZoMExPZFdTV043M2JYRVNzZ0FFeUZnSEdZRmJ2czNoVU5QTDQ4NEJMT0QzVGZNcmJDZC1yVmVVOFRHVnFoMzRnOXAwTWdId2FBbDhiOFk5SnA5ejFlTQ?oc=5",
           "date": "Fri, 12 Jun 2026 00:48:09 GMT"
         }
-      ]
+      ],
+      "aiSummary": {
+        "overview": "Bill C-34 is Canada's online-safety law for young people. It sets safety duties for social media and AI chatbot services, restricts social media accounts for under-16s, and creates a new regulator to enforce the rules.",
+        "points": [
+          "Part 1 enacts the Digital Safety Act, setting duties for social media and AI chatbot services — assessing risks, safety-by-design and age-appropriate features, user tools, and published digital safety plans.",
+          "Restricts social media accounts for people under 16, with a pathway for platforms to seek an exemption by demonstrating sufficient safeguards for younger users.",
+          "Brings AI chatbot services within the online-safety framework.",
+          "Part 2 enacts the Digital Safety Commission of Canada Act, creating an independent Digital Safety Commission to administer and enforce the new regime.",
+          "Makes consequential amendments to other Acts, including the Access to Information Act and the Privacy Act.",
+          "Sponsored by the Minister of Canadian Identity and Culture and tabled June 10, 2026; officials have signalled the under-16 rules would realistically take effect in 2027–2028."
+        ],
+        "caveat": "AI-generated from the bill's official summary and text. A plain-language aid, not legal advice — confirm against the full bill before relying on it."
+      }
     },
     {
       "billNumber": "C-8",
@@ -334,11 +370,11 @@
       "sponsor": "Hon. Gary Anandasangaree",
       "billType": "House Government Bill",
       "isGovernment": true,
-      "currentStatus": "Awaiting royal assent",
-      "latestActivity": "Third reading on June 4, 2026 (Senate)",
-      "latestActivityDate": "2026-06-04T06:45:00-04:00",
-      "completedStage": "Third reading",
-      "royalAssent": null,
+      "currentStatus": "Royal assent received",
+      "latestActivity": "Royal assent on June 15, 2026 (Senate)",
+      "latestActivityDate": "2026-06-15T06:15:00-04:00",
+      "completedStage": "Royal assent",
+      "royalAssent": "2026-06-15T06:15:00-04:00",
       "stages": [
         {
           "key": "house1",
@@ -379,11 +415,11 @@
         {
           "key": "assent",
           "label": "Royal Assent",
-          "complete": false,
-          "date": null
+          "complete": true,
+          "date": "2026-06-15T06:15:00-04:00"
         }
       ],
-      "progress": 86,
+      "progress": 100,
       "category": "Cybersecurity",
       "headline": "Critical Cyber Systems Protection",
       "whyItMatters": "Amends the Telecommunications Act and establishes cybersecurity requirements and incident-reporting duties for operators of designated critical infrastructure such as telecoms, finance and energy.",
@@ -395,10 +431,10 @@
       "curated": true,
       "news": [
         {
-          "title": "OpenMedia Urges Senate: Finish the Job of Fixing the Flawed Bill C-8",
-          "source": "OpenMedia",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVU1NVJxOHV4djN5ZUJvTzZlbWtkSkdPS29SOGFleVhfdjVRTEUzM0g2cEZhSjdRYV9relQxRTg1MHdtR0dhTTNqdV8tTUhYV3Rva0NnTlA0cThGbjVOTFlERGZGS2xVS2FNN0NCS1RWSzRDdmdPTlY4NFhYMjR1X3pJZlBDeUJhTmhXcWlSSWFrZUNYYndySXEtdWZPVGdydVRCNw?oc=5",
-          "date": "Fri, 29 May 2026 07:00:00 GMT"
+          "title": "Government of Canada Strengthens Cyber Security and Critical Infrastructure with Royal Assent of Bill C‑8",
+          "source": "Yahoo Finance Singapore",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnZFVFEwR1Y0eDVRZzZsa0dwNE5adG1TV0RPVllOSDNzbFR4Ui1jODhfZXA2YWF1QXVoSGlrY1VzNk1hUzFLX25OazlUNjhHQlZERDRja2Z2cjJiRWI1SEdaT0luZi1vQTdiazhBb25WMjg0MV82Zmt1YXIzY053b3VBNnVDU2ozOUU5WXdDVmhaVmlnQTNQZA?oc=5",
+          "date": "Tue, 16 Jun 2026 13:34:00 GMT"
         },
         {
           "title": "Bill C‑8 Passes House of Commons Following Substantive Amendments and Speaker’s Ruling",
@@ -407,12 +443,24 @@
           "date": "Tue, 14 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Canada parliament passes cybersecurity bill amid privacy concerns",
-          "source": "Jurist.org",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWNkUjE3a3VVQkwtRHBMOUtwUkx0X2gwQzFYckVJYmRJSUd0aHhIczVuQ2tDaDFiM0JYVlQtWFFBc1JINlRhdTZ0NU1ZeS1SN29vaTNUYjZ0NmhWdzRodUhibFBteHdyNGxrZ2FZMWNRcTk2X2JPOXczTFRKMVl6b1ZTOFFvZ3R6ZHN0R1ZUZVVWazFHMWR4bGhFaGJfRnVtclptQg?oc=5",
-          "date": "Sat, 06 Jun 2026 07:00:00 GMT"
+          "title": "OpenMedia Urges Senate: Finish the Job of Fixing the Flawed Bill C-8",
+          "source": "OpenMedia",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVU1NVJxOHV4djN5ZUJvTzZlbWtkSkdPS29SOGFleVhfdjVRTEUzM0g2cEZhSjdRYV9relQxRTg1MHdtR0dhTTNqdV8tTUhYV3Rva0NnTlA0cThGbjVOTFlERGZGS2xVS2FNN0NCS1RWSzRDdmdPTlY4NFhYMjR1X3pJZlBDeUJhTmhXcWlSSWFrZUNYYndySXEtdWZPVGdydVRCNw?oc=5",
+          "date": "Fri, 29 May 2026 07:00:00 GMT"
         }
-      ]
+      ],
+      "aiSummary": {
+        "overview": "Bill C-8 is the backbone of Canada's critical-infrastructure cybersecurity regime. It makes securing the telecom system a formal policy goal and creates binding cybersecurity obligations for operators of systems vital to national security or public safety.",
+        "points": [
+          "Part 1 amends the Telecommunications Act to make securing Canada's telecom system a policy objective and lets the government direct telecom providers to act (or refrain from acting) to secure the system, backed by an administrative monetary penalty scheme.",
+          "Part 2 enacts the Critical Cyber Systems Protection Act (CCSPA) to protect cyber systems vital to national security or public safety.",
+          "Lets the government designate 'vital services and systems' and classes of operators across sectors such as finance, telecommunications, energy and transportation.",
+          "Requires designated operators to establish cybersecurity programs, manage supply-chain and third-party risks, report cybersecurity incidents, and comply with binding cybersecurity directions.",
+          "Provides for information sharing among relevant parties and for enforcement, with penalties for non-compliance.",
+          "Sponsored by the Minister of Public Safety and tabled June 18, 2025; it is at the final stage in the Senate."
+        ],
+        "caveat": "AI-generated from the bill's official summary and text. A plain-language aid, not legal advice — confirm against the full bill before relying on it."
+      }
     }
   ],
   "discovered": [
