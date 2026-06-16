@@ -1,0 +1,647 @@
+{
+  "session": "45-1",
+  "generatedAt": "2026-06-16T02:00:47.995Z",
+  "source": "Parliament of Canada — LEGISinfo · news via Google News",
+  "resources": [
+    {
+      "label": "ParlVU — watch Parliament live",
+      "url": "https://parlvu.parl.gc.ca/Harmony/en/",
+      "note": "House, Senate & committee video (live and archived)"
+    },
+    {
+      "label": "LEGISinfo — all bills",
+      "url": "https://www.parl.ca/legisinfo/en/bills",
+      "note": "Official status of every bill"
+    },
+    {
+      "label": "House of Commons",
+      "url": "https://www.ourcommons.ca/en",
+      "note": "Debates (Hansard), votes, committees"
+    },
+    {
+      "label": "Senate of Canada",
+      "url": "https://sencanada.ca/en/",
+      "note": "Senate proceedings and committees"
+    },
+    {
+      "label": "Office of the Privacy Commissioner",
+      "url": "https://www.priv.gc.ca/en/",
+      "note": "Independent privacy oversight"
+    }
+  ],
+  "tracked": [
+    {
+      "billNumber": "C-36",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "An Act to enact the Protecting Privacy and Consumer Data Act, to amend the Personal Information Protection and Electronic Documents Act and to make amendments to other Acts",
+      "longTitle": "An Act to enact the Protecting Privacy and Consumer Data Act, to amend the Personal Information Protection and Electronic Documents Act and to make amendments to other Acts",
+      "sponsor": "Hon. Evan Solomon",
+      "billType": "House Government Bill",
+      "isGovernment": true,
+      "currentStatus": "At second reading in the House of Commons",
+      "latestActivity": "Introduction and first reading on June 15, 2026 (House of Commons)",
+      "latestActivityDate": "2026-06-15T11:00:00-04:00",
+      "completedStage": "First reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2026-06-15T11:00:00-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 14,
+      "category": "Privacy",
+      "headline": "Protecting Privacy and Consumer Data Act",
+      "whyItMatters": "Overhauls federal private-sector privacy law by amending PIPEDA. Reporting describes new individual rights (including over AI-generated deepfakes), rules on automated decision-making and so-called surveillance pricing, and a restructured federal privacy regulator. Tabled June 15, 2026 by the Minister of Artificial Intelligence and Digital Innovation.",
+      "tags": [
+        "PIPEDA reform",
+        "AI & automated decisions",
+        "consumer data",
+        "privacy regulator"
+      ],
+      "curated": true,
+      "news": [
+        {
+          "title": "Canada's Digital Super-Regulator: Bill C-36 Pushes Out the Privacy Commissioner and Hands Private Sector Privacy to an Overloaded Commission",
+          "source": "Michael Geist",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVVA1LV9ackhtN3lCc1Y3djZRT2lOMzJRNUYzcHdKZDFUVzljUHhQdmhJTk5WcWlCRWoxV2F0V28zRHV3ald4NkROV0pndUFVN0kyaFRjUXRrSkpEZ182OVJlSERKMDUtR2VLd3VmMVotRzZwbF9wbFRGREZ2aFFRa2pZdDBGal9GQ3l1blowNGpkS1JQbmNXc05nV3FDYlFELUFCUENaYjBwR1ExU01CRlNkd1ZfOHg4WGVZMnpxTzRvb01xbXl5MTM5WnBzWHFHd2stTHZ6cWJSamNJb2d1THZ2cmMtRjVCNUd1a0tna3hXM2R3S0NVMTBKVkNqOGFXbnBSWXRn?oc=5",
+          "date": "Mon, 15 Jun 2026 22:41:20 GMT"
+        },
+        {
+          "title": "With update to Canada’s privacy laws, feds are building a “super-regulator”",
+          "source": "BetaKit",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNVZqRENwNmg4UUhrZHFrb2FQWUtEb3Z3YUdrQjQ1Vy04NG13UjljZUFjMlhaa2NfeTc4aGFRWWkxbWFFSXZSQ2NadFNTX3NicGxiTXBaV2RDbWc2V0F6RmpTSkxEVmtucGVlRkQwTlVHVVZucUpCbGhmOUhiVktYbFJmT2JMTy0wNmhvX3lfd0FUYzZQclNz?oc=5",
+          "date": "Tue, 16 Jun 2026 00:18:11 GMT"
+        },
+        {
+          "title": "New privacy bill would give Canadians right to request companies delete AI deepfakes",
+          "source": "CBC",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd08zZWhfRWN1WUtCZ1ZhR2ZMTmJnVXVaT3AzT1lMVS1Uc212endUZlBROGExODREeDdNTkIyektJUlBCUmpZdE1LXzNYaFl5N05ZVk5rcEtxbzJUQXhvZkFpUURDTUJXcXJqeWd3QzVXYnE2THdHVW1sRlBEMFE1d3BCaTBDT29BMWx4M0JVVlVpbndTcnp0dg?oc=5",
+          "date": "Mon, 15 Jun 2026 22:59:50 GMT"
+        }
+      ]
+    },
+    {
+      "billNumber": "C-22",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-22"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-22/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "Lawful Access Act, 2026",
+      "longTitle": "An Act respecting lawful access",
+      "sponsor": "Hon. Gary Anandasangaree",
+      "billType": "House Government Bill",
+      "isGovernment": true,
+      "currentStatus": "At consideration in committee in the House of Commons",
+      "latestActivity": "Second reading and referral to committee on April 20, 2026 (House of Commons)",
+      "latestActivityDate": "2026-04-20T14:15:55-04:00",
+      "completedStage": "Second reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2026-03-12T06:03:39.56-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": true,
+          "date": "2026-04-20T14:15:55-04:00"
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 29,
+      "category": "Surveillance & Lawful Access",
+      "headline": "Lawful Access Act, 2026",
+      "whyItMatters": "Would require certain electronic service providers to retain metadata and to facilitate authorized access to information for police and intelligence agencies, with provisions on sharing with foreign governments. The government cites investigative needs; civil-liberties groups and some technologists have raised concerns about encryption and privacy.",
+      "tags": [
+        "metadata retention",
+        "encryption",
+        "police access",
+        "CSIS"
+      ],
+      "curated": true,
+      "news": [
+        {
+          "title": "Liberals to amend police data interception bill following searing criticism",
+          "source": "CBC",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc1d3ZWhXUVdQNGhYcTVEZ3NJV0NxZzd4ekZ4dFMwdi1tNkVKcm50c2RtbnpHS09sQl92eDBOYVMtdTlKVVp2YVJBakhtUTlCeVBZVDVaWHV3bWMtY2J0aTVsczVVMllueDBFQ1d2M25qNVJ4VThDTDR6cExZLWR6TGtPRQ?oc=5",
+          "date": "Wed, 27 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Signal, DuckDuckGo among firms weighing Canada exit over lawful access bill",
+          "source": "Global News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDNITHBuWFI2d3ozOVJqdm9zSVVkWFVsYnJQZVMwX3VuLVlRNGIydnRCS2JDQnZSQ09JcHIxWFF5OW1PVHl2ZGZCQUQ4VGNMOXZnTndPb3ZLMzdNd2NDX1FFbTFBVVBITXNMMm9DM3k4aE9vZG9yT2EwdjFvT2NiR1c2b1Q2WENIMUhZZk5wYw?oc=5",
+          "date": "Thu, 04 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Search engine DuckDuckGo would withdraw VPN from Canada if lawful-access bill passes",
+          "source": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc3VQeW5QemdxRVJzNnRZUzZFWHRONExBOEJUOWc1ZnhjeTFIVTdnaHBDVDBjNEJuLVRuQXFkeXkxd21oS1lPRVRqcl96SnUzaVdkMm0wSEJPNDFsR0MxTFlMckY2Tms3d0RIOEN4MXREeTl1QkQtSXhZRHVMMHVPbFppRklOT3FybktmRTVWaXN0djVYQWRaU3o4S3lGZw?oc=5",
+          "date": "Thu, 28 May 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "billNumber": "C-34",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-34/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "Safe Social Media Act",
+      "longTitle": "An Act to enact the Digital Safety Act and the Digital Safety Commission of Canada Act and to make consequential amendments to other Acts",
+      "sponsor": "Hon. Marc Miller",
+      "billType": "House Government Bill",
+      "isGovernment": true,
+      "currentStatus": "At second reading in the House of Commons",
+      "latestActivity": "Introduction and first reading on June 10, 2026 (House of Commons)",
+      "latestActivityDate": "2026-06-10T12:17:46.567-04:00",
+      "completedStage": "First reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2026-06-10T12:17:46.567-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 14,
+      "category": "Online Safety",
+      "headline": "Safe Social Media Act",
+      "whyItMatters": "Would restrict social media accounts for people under 16 (with a platform exemption pathway), create a Digital Safety Commission of Canada, and set safety duties for social media and AI chatbot services. Tabled June 10, 2026.",
+      "tags": [
+        "under-16 ban",
+        "Digital Safety Commission",
+        "AI chatbots",
+        "age verification"
+      ],
+      "curated": true,
+      "news": [
+        {
+          "title": "Taking Stock of Bill C-34: Five Things to Know About the Government's Plan for a Kids' Social Media Ban, Mandated Age Verification, and AI Chatbot Rules",
+          "source": "Michael Geist",
+          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVDNxcTFHM2N4TnBzM2xxVndMVUFmX2hqdUlxSmM2SjNVYjNZT0lPS3U0T2FZTjFrLTFVVmdsZXhqNkQxaTBIcWFBTzAydWgtcldORGZDY1R5Uk5feTAwck1lSDVha2tCM3QwTVdRVjVlZWMxOGg2UEdQMmk0VjVlLXRFVk1NampZXzJaZTFwZlV1N2tObHpNWEZvWGxobDdBSUVkTEJSRW5qWHk4cVB3ZEdQTTJZMjRlczFQRDNKQ3hOQlE4bE5sdlJoOVZvWmNvWTNOejNEZmp1LUowcXd4N0N2bkhFSEdSbFdBNWxPaVhHTjR5RkJHNWlpaEE2b19BZGxiRkdtUlRrN2dYNk1lZFhn?oc=5",
+          "date": "Sat, 13 Jun 2026 13:36:49 GMT"
+        },
+        {
+          "title": "CCLA warns against risks to freedom of expression and privacy posed by Bill C-34, the Safe Social Media Act",
+          "source": "Canadian Civil Liberties Association",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXNtdUZGM3NXWDBERm5xMzdoMlRLb09pZDZpQkpIbVNpYUxQMkZFVlpHWTNaMENZYkU0ZjlXSmNCZlBzLVVTUzFCRDFUb1NlYU9xOTlIUVlxdzJYdGFfeWNSbmxjVTdNRl9xcWk3ZWNpSkNEZ1RueGU5d0prU01zRWk1Wm0wb0I4X0h5dlFuMjh0M0FBOWZOMy1XdW5CQUZ2ZUxmcVo1SEhDNmFCMmd5LVRCMFFEVGM1YTg3djlXbG9OTXI4MWhUeGViNk04Q0RlT05fSA?oc=5",
+          "date": "Thu, 11 Jun 2026 14:00:39 GMT"
+        },
+        {
+          "title": "Bill C-34 at a glance: Canada’s new Digital Safety Act",
+          "source": "Osler, Hoskin & Harcourt LLP",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNHNyUEhNd0RqRERsd1h1bGcxVnBSSEp5X2tMX1pTMG0tazFqd1ZWRDFiSlhXLWJDOGk2ZFdJVGVSUmF3UlZoMExPZFdTV043M2JYRVNzZ0FFeUZnSEdZRmJ2czNoVU5QTDQ4NEJMT0QzVGZNcmJDZC1yVmVVOFRHVnFoMzRnOXAwTWdId2FBbDhiOFk5SnA5ejFlTQ?oc=5",
+          "date": "Fri, 12 Jun 2026 00:48:09 GMT"
+        }
+      ]
+    },
+    {
+      "billNumber": "C-8",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-8",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-8"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-8/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts",
+      "longTitle": "An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts",
+      "sponsor": "Hon. Gary Anandasangaree",
+      "billType": "House Government Bill",
+      "isGovernment": true,
+      "currentStatus": "Awaiting royal assent",
+      "latestActivity": "Third reading on June 4, 2026 (Senate)",
+      "latestActivityDate": "2026-06-04T06:45:00-04:00",
+      "completedStage": "Third reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2025-06-18T11:14:09.28-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": true,
+          "date": "2025-10-03T06:55:04-04:00"
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": true,
+          "date": "2026-03-26T12:05:32.183-04:00"
+        },
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": true,
+          "date": "2026-03-26T14:00:00-04:00"
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": true,
+          "date": "2026-04-23T06:15:00-04:00"
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": true,
+          "date": "2026-06-04T06:45:00-04:00"
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 86,
+      "category": "Cybersecurity",
+      "headline": "Critical Cyber Systems Protection",
+      "whyItMatters": "Amends the Telecommunications Act and establishes cybersecurity requirements and incident-reporting duties for operators of designated critical infrastructure such as telecoms, finance and energy.",
+      "tags": [
+        "critical infrastructure",
+        "Telecommunications Act",
+        "incident reporting"
+      ],
+      "curated": true,
+      "news": [
+        {
+          "title": "OpenMedia Urges Senate: Finish the Job of Fixing the Flawed Bill C-8",
+          "source": "OpenMedia",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYVU1NVJxOHV4djN5ZUJvTzZlbWtkSkdPS29SOGFleVhfdjVRTEUzM0g2cEZhSjdRYV9relQxRTg1MHdtR0dhTTNqdV8tTUhYV3Rva0NnTlA0cThGbjVOTFlERGZGS2xVS2FNN0NCS1RWSzRDdmdPTlY4NFhYMjR1X3pJZlBDeUJhTmhXcWlSSWFrZUNYYndySXEtdWZPVGdydVRCNw?oc=5",
+          "date": "Fri, 29 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Bill C‑8 Passes House of Commons Following Substantive Amendments and Speaker’s Ruling",
+          "source": "Fasken",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04MkotTUhhQk5pN3d1MTQwbGZic0VVeHZSQklZdVZpOXQwZ0k3YnlCZnNicU1TZlZieHVHWnJGMFZhUjRJWnZjUFNYOWFLMU1GbWVXcFJUamVzRmJFUDlFUg?oc=5",
+          "date": "Tue, 14 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Canada parliament passes cybersecurity bill amid privacy concerns",
+          "source": "Jurist.org",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWNkUjE3a3VVQkwtRHBMOUtwUkx0X2gwQzFYckVJYmRJSUd0aHhIczVuQ2tDaDFiM0JYVlQtWFFBc1JINlRhdTZ0NU1ZeS1SN29vaTNUYjZ0NmhWdzRodUhibFBteHdyNGxrZ2FZMWNRcTk2X2JPOXczTFRKMVl6b1ZTOFFvZ3R6ZHN0R1ZUZVVWazFHMWR4bGhFaGJfRnVtclptQg?oc=5",
+          "date": "Sat, 06 Jun 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "billNumber": "C-2",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-2/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "Strong Borders Act",
+      "longTitle": "An Act respecting certain measures relating to the security of the border between Canada and the United States and respecting other related security measures",
+      "sponsor": "Hon. Gary Anandasangaree",
+      "billType": "House Government Bill",
+      "isGovernment": true,
+      "currentStatus": "At second reading in the House of Commons",
+      "latestActivity": "Debate at second reading on September 17, 2025 (House of Commons)",
+      "latestActivityDate": "2025-09-17T13:30:11-04:00",
+      "completedStage": "First reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2025-06-03T06:02:53.767-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 14,
+      "category": "Border & Data",
+      "headline": "Strong Borders Act",
+      "whyItMatters": "A border-security bill that includes information-sharing and lawful-access provisions affecting data held by service providers. Tracked here for its digital and data-access components rather than its border measures.",
+      "tags": [
+        "information sharing",
+        "lawful access",
+        "data"
+      ],
+      "curated": true,
+      "news": [
+        {
+          "title": "Bill C‑22: The Lawful Access Act Reintroduces Lawful Access in Parliament After the Government of Canada’s Abortive Attempt to Do So in Bill C‑2, the Strong Borders Act",
+          "source": "Fasken",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXNkdFQwM0JsWG1sR0tIM0tJV1Z2SF9ZSG5TSEZVQV85ek5oUlpPa2dULUhJS09BUTc5VnphZF90OE5RQm81cGxQTXZjX2NPVjdYbnFhUTczOVl6OFZRNFJHcUh0ZkhzcmdXUFJ3ajJ6a3FLeXVubUhoLXZmNUFZa0NZZTBnaGktaWZnRG02QTJhZw?oc=5",
+          "date": "Thu, 26 Mar 2026 07:00:00 GMT"
+        },
+        {
+          "title": "(Un)forced Errors: Analysis of Proposed Surveillance Law Expansion under Bill C-22, An Act respecting lawful access",
+          "source": "The Citizen Lab",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTmtHLXE5VWwxQ094THJKUHVxeDhrRmlNMG9kOFdQMGJpUjVMbk8tZk1KVEMwZG9fb05hVmtqUXRsQmR6NktxTHYyVjM0YUR5b1J3R012c2U0ck44Y3F0MHA3Mk1VbDhZTEx1QWhLVTh0Rm1CTXlDN2NaNEIyUFpqcjVTb2dJODRhTmU1NjlTbWowdkU3NDlnX3U5WQ?oc=5",
+          "date": "Tue, 02 Jun 2026 07:00:00 GMT"
+        },
+        {
+          "title": "What to know about Bill C-22, Canada’s proposed lawful-access legislation",
+          "source": "The Globe and Mail",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTHUzcDhsTWxOMHA5X0p6cDVDeFI5bm5pNm9kR2dMclNFVDVEbVhVbll4ODJtTmUtMGNjQ2MzM1FtNXRQcTcta0xOY1IzTEx5dUZzR3hZbHAtWTFuampTU1FNUlZDWUhHS3lRcVFiVkFVQU13aVFVMmFCbmlZVmhUM04yejhVVk96LTR6T2Vn?oc=5",
+          "date": "Mon, 01 Jun 2026 07:00:00 GMT"
+        }
+      ]
+    }
+  ],
+  "discovered": [
+    {
+      "billNumber": "S-5",
+      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/s-5",
+      "links": [
+        {
+          "label": "LEGISinfo",
+          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/s-5"
+        },
+        {
+          "label": "Full text",
+          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/S-5/first-reading"
+        },
+        {
+          "label": "Watch on ParlVU",
+          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+        }
+      ],
+      "shortTitle": "Connected Care for Canadians Act",
+      "longTitle": "An Act respecting the interoperability of health information technology and to prohibit data blocking by health information technology vendors",
+      "sponsor": "Sen. Pierre Moreau",
+      "billType": "Senate Government Bill",
+      "isGovernment": true,
+      "currentStatus": "At second reading in the House of Commons",
+      "latestActivity": "First reading on May 28, 2026 (House of Commons)",
+      "latestActivityDate": "2026-05-28T06:10:00-04:00",
+      "completedStage": "First reading",
+      "royalAssent": null,
+      "stages": [
+        {
+          "key": "senate1",
+          "label": "Senate — 1st reading",
+          "complete": true,
+          "date": "2026-02-03T19:00:00-05:00"
+        },
+        {
+          "key": "senate2",
+          "label": "Senate — 2nd reading",
+          "complete": true,
+          "date": "2026-03-26T07:00:00-04:00"
+        },
+        {
+          "key": "senate3",
+          "label": "Senate — 3rd reading",
+          "complete": true,
+          "date": "2026-05-26T06:25:00-04:00"
+        },
+        {
+          "key": "house1",
+          "label": "House — 1st reading",
+          "complete": true,
+          "date": "2026-05-28T06:10:00-04:00"
+        },
+        {
+          "key": "house2",
+          "label": "House — 2nd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "house3",
+          "label": "House — 3rd reading",
+          "complete": false,
+          "date": null
+        },
+        {
+          "key": "assent",
+          "label": "Royal Assent",
+          "complete": false,
+          "date": null
+        }
+      ],
+      "progress": 57,
+      "category": "Other digital bill",
+      "headline": "Connected Care for Canadians Act",
+      "whyItMatters": null,
+      "tags": [],
+      "curated": false,
+      "news": [
+        {
+          "title": "Data saves lives: Bill S-5 revives interoperability requirements for health-care technology",
+          "source": "MLT Aikins",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWG5YS3gyd1htSktCR0tUZEpjTFhhZjVMNzlpMGp6UWZIWU51Q2VpNFUwbnhkb1NqVldjWFVMbVZDMGh6cFpXVzFNX2NiU1dLREJTMVJhN1NrMXd2ckhKU2dSMXREQU5DWEExTVd6bHZ2MkdfcDdtcXRYS2xxZzZQSXU2Wlg2Mk1rRk13SU0xWFZVOGVvWmpIeGp0NHMxODBOdDljQkZBSGp2RWRpaWtZTDJJdEdlemNSemZZZU1XZ2s3RXJG?oc=5",
+          "date": "Fri, 06 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "The Government of Canada introduces legislation to build a more connected health care system",
+          "source": "canada.ca",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeGxxRVpXR3MySGlNVGsyYXJsd1JhSHFaNXBZV082T3RibG5IZW4wbnNxZXJtRWh5V0N4RFNCdDFMTWpwVUN3NENwVUlNd3dpeTBKQ1poS2JheWtTcno4Umc5bXd1VGN3SGdkTlFKTXZPV1dQYUFzSXdnSVgxVGMxckxOZW1ISU04MTZHLTBqQVVibEc1M3NENmo4c1FIbFpPa0ZrMGlmMUNySGkwblVFdElrNElIdXpaZVVBSzU4Qng3R2VUMVdHektPZEc0MjNxcGJtSW1GaTY4aVpMbldsNXdNdw?oc=5",
+          "date": "Wed, 04 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Health Minister Introduces Bill to Modernize Digital Health Services",
+          "source": "CPAC.ca",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTHhSMy1OSVJHZ3h2VUR0aTdhMkF1UC1Xa1dPeWtlV2dqbHFYckJub3VUbWg1N1F2TmVRV3JYQVB2dVZraWJoenVfWUFzMHB5Um1OVElMcC04cFBqdU9YZkJ3TmlqMHBnc19YQk02U2ZMQm5QMkRXQk1GRjc0NEdNMGRVa2dUSlBraU1DSDZiMEZnVHJ4MFdhd0NndklkbmVfR3VYVDZxbDc1SFJNU1BmMnRYZlR2dUFPX1lQdThXYXVYbU9Wb1VEMURzaGVPTVpxSFNfUHR3V3VGZDgwa0xValFDbUMzaGxmZFE?oc=5",
+          "date": "Wed, 04 Feb 2026 08:00:00 GMT"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Policy Tracker — Canada's digital bills, in real time</title>
+  <meta name="description" content="A live tracker of the bills shaping Canada's digital future: lawful access, online safety, cybersecurity and privacy. Status pulled directly from Parliament of Canada's LEGISinfo." />
+  <meta property="og:title" content="Digital Policy Tracker" />
+  <meta property="og:description" content="Canada's digital bills, tracked in real time from Parliament's own feed." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://www.parl.ca" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <h1>Digital Policy Tracker</h1>
+          <p class="tagline">Canada's digital bills, tracked in real time</p>
+        </div>
+      </div>
+      <div class="status-pill" id="statusPill" title="Data freshness">
+        <span class="dot" id="statusDot"></span>
+        <span id="statusText">Loading live data…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro">
+      <p>
+        The bills below are reshaping how Canadians live online: who can access your data,
+        how platforms are policed, and what privacy means in law. Status updates flow
+        directly from the Parliament of Canada's
+        <a href="https://www.parl.ca/legisinfo/en/overview" target="_blank" rel="noopener">LEGISinfo</a>
+        feed, so this page reflects where each bill actually stands today.
+      </p>
+      <div class="legend" id="legend"></div>
+      <nav class="resources" id="resources" aria-label="Official parliamentary resources"></nav>
+    </section>
+
+    <section id="trackedSection">
+      <h2 class="section-title">Tracked bills</h2>
+      <div class="grid" id="trackedGrid">
+        <div class="skeleton-note">Fetching the latest from Parliament…</div>
+      </div>
+    </section>
+
+    <section id="discoveredSection" hidden>
+      <h2 class="section-title">
+        Newly detected digital bills
+        <span class="section-sub">Other government bills in this session matching digital, privacy or cyber keywords</span>
+      </h2>
+      <div class="grid" id="discoveredGrid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        Source: <a href="https://www.parl.ca/legisinfo/en/overview" target="_blank" rel="noopener">Parliament of Canada — LEGISinfo</a>.
+        Editorial notes are independent analysis and not legal advice.
+      </p>
+      <p class="muted" id="footerMeta"></p>
+    </div>
+  </footer>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-top">
+        <span class="bill-num"></span>
+        <span class="category-tag"></span>
+      </div>
+      <h3 class="card-title"></h3>
+      <p class="long-title"></p>
+      <div class="progress" aria-hidden="true">
+        <div class="progress-track"><div class="progress-fill"></div></div>
+        <span class="progress-label"></span>
+      </div>
+      <ol class="stepper"></ol>
+      <p class="why"></p>
+      <div class="tags"></div>
+      <div class="news">
+        <h4 class="news-head">In the news</h4>
+        <ul class="news-list"></ul>
+      </div>
+      <div class="card-foot">
+        <span class="latest"></span>
+        <div class="links"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
