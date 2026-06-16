@@ -50,17 +50,21 @@ function billLinks(num, session) {
   return [
     { label: "LEGISinfo", url: `https://www.parl.ca/legisinfo/en/bill/${session}/${lower}` },
     { label: "Full text", url: `https://www.parl.ca/DocumentViewer/en/${session}/bill/${num}/first-reading` },
-    { label: "Watch on ParlVU", url: "https://parlvu.parl.gc.ca/Harmony/en/" },
   ];
 }
 
 function shape(raw, editorial, session) {
   const stages = buildStages(raw);
   const num = raw.BillNumberFormatted || "";
+  const links = billLinks(num, session);
+  // Add the sponsoring department/ministry when curated for this bill.
+  if (editorial && editorial.department && editorial.department.url) {
+    links.push({ label: editorial.department.name, url: editorial.department.url });
+  }
   return {
     billNumber: num,
     legisinfoUrl: `https://www.parl.ca/legisinfo/en/bill/${session}/${num.toLowerCase()}`,
-    links: billLinks(num, session),
+    links,
     shortTitle: raw.ShortTitleEn || raw.LongTitleEn || "",
     longTitle: raw.LongTitleEn || "",
     sponsor: raw.SponsorEn || null,

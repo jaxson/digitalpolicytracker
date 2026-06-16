@@ -1,6 +1,6 @@
 {
   "session": "45-1",
-  "generatedAt": "2026-06-16T02:22:59.009Z",
+  "generatedAt": "2026-06-16T02:26:20.987Z",
   "source": "Parliament of Canada — LEGISinfo · news via Google News",
   "tracked": [
     {
@@ -16,8 +16,8 @@
           "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-36/first-reading"
         },
         {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+          "label": "ISED",
+          "url": "https://ised-isde.canada.ca/site/ised/en"
         }
       ],
       "shortTitle": "An Act to enact the Protecting Privacy and Consumer Data Act, to amend the Personal Information Protection and Electronic Documents Act and to make amendments to other Acts",
@@ -119,8 +119,8 @@
           "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-22/first-reading"
         },
         {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+          "label": "Public Safety Canada",
+          "url": "https://www.canada.ca/en/public-safety-canada.html"
         }
       ],
       "shortTitle": "Lawful Access Act, 2026",
@@ -180,7 +180,7 @@
       "progress": 29,
       "category": "Surveillance & Lawful Access",
       "headline": "Lawful Access Act, 2026",
-      "whyItMatters": "Would require certain electronic service providers to retain metadata and to facilitate authorized access to information for police and intelligence agencies, with provisions on sharing with foreign governments. The government cites investigative needs; civil-liberties groups and some technologists have raised concerns about encryption and privacy.",
+      "whyItMatters": "Would require certain electronic service providers to retain metadata and to facilitate authorized access to information for police and intelligence agencies, with provisions on sharing with foreign governments. Revisits the lawful-access provisions originally in the Strong Borders Act (Bill C-2). The government cites investigative needs; civil-liberties groups and some technologists have raised concerns about encryption and privacy.",
       "tags": [
         "metadata retention",
         "encryption",
@@ -222,8 +222,8 @@
           "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-34/first-reading"
         },
         {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+          "label": "Canadian Heritage",
+          "url": "https://www.canada.ca/en/canadian-heritage.html"
         }
       ],
       "shortTitle": "Safe Social Media Act",
@@ -325,8 +325,8 @@
           "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-8/first-reading"
         },
         {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
+          "label": "Public Safety Canada",
+          "url": "https://www.canada.ca/en/public-safety-canada.html"
         }
       ],
       "shortTitle": "An Act respecting cyber security, amending the Telecommunications Act and making consequential amendments to other Acts",
@@ -413,108 +413,6 @@
           "date": "Sat, 06 Jun 2026 07:00:00 GMT"
         }
       ]
-    },
-    {
-      "billNumber": "C-2",
-      "legisinfoUrl": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2",
-      "links": [
-        {
-          "label": "LEGISinfo",
-          "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-2"
-        },
-        {
-          "label": "Full text",
-          "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/C-2/first-reading"
-        },
-        {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
-        }
-      ],
-      "shortTitle": "Strong Borders Act",
-      "longTitle": "An Act respecting certain measures relating to the security of the border between Canada and the United States and respecting other related security measures",
-      "sponsor": "Hon. Gary Anandasangaree",
-      "billType": "House Government Bill",
-      "isGovernment": true,
-      "currentStatus": "At second reading in the House of Commons",
-      "latestActivity": "Debate at second reading on September 17, 2025 (House of Commons)",
-      "latestActivityDate": "2025-09-17T13:30:11-04:00",
-      "completedStage": "First reading",
-      "royalAssent": null,
-      "stages": [
-        {
-          "key": "house1",
-          "label": "House — 1st reading",
-          "complete": true,
-          "date": "2025-06-03T06:02:53.767-04:00"
-        },
-        {
-          "key": "house2",
-          "label": "House — 2nd reading",
-          "complete": false,
-          "date": null
-        },
-        {
-          "key": "house3",
-          "label": "House — 3rd reading",
-          "complete": false,
-          "date": null
-        },
-        {
-          "key": "senate1",
-          "label": "Senate — 1st reading",
-          "complete": false,
-          "date": null
-        },
-        {
-          "key": "senate2",
-          "label": "Senate — 2nd reading",
-          "complete": false,
-          "date": null
-        },
-        {
-          "key": "senate3",
-          "label": "Senate — 3rd reading",
-          "complete": false,
-          "date": null
-        },
-        {
-          "key": "assent",
-          "label": "Royal Assent",
-          "complete": false,
-          "date": null
-        }
-      ],
-      "progress": 14,
-      "category": "Border & Data",
-      "headline": "Strong Borders Act",
-      "whyItMatters": "A border-security bill that includes information-sharing and lawful-access provisions affecting data held by service providers. Tracked here for its digital and data-access components rather than its border measures.",
-      "tags": [
-        "information sharing",
-        "lawful access",
-        "data"
-      ],
-      "curated": true,
-      "news": [
-        {
-          "title": "Bill C‑22: The Lawful Access Act Reintroduces Lawful Access in Parliament After the Government of Canada’s Abortive Attempt to Do So in Bill C‑2, the Strong Borders Act",
-          "source": "Fasken",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOXNkdFQwM0JsWG1sR0tIM0tJV1Z2SF9ZSG5TSEZVQV85ek5oUlpPa2dULUhJS09BUTc5VnphZF90OE5RQm81cGxQTXZjX2NPVjdYbnFhUTczOVl6OFZRNFJHcUh0ZkhzcmdXUFJ3ajJ6a3FLeXVubUhoLXZmNUFZa0NZZTBnaGktaWZnRG02QTJhZw?oc=5",
-          "date": "Thu, 26 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "(Un)forced Errors: Analysis of Proposed Surveillance Law Expansion under Bill C-22, An Act respecting lawful access",
-          "source": "The Citizen Lab",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTmtHLXE5VWwxQ094THJKUHVxeDhrRmlNMG9kOFdQMGJpUjVMbk8tZk1KVEMwZG9fb05hVmtqUXRsQmR6NktxTHYyVjM0YUR5b1J3R012c2U0ck44Y3F0MHA3Mk1VbDhZTEx1QWhLVTh0Rm1CTXlDN2NaNEIyUFpqcjVTb2dJODRhTmU1NjlTbWowdkU3NDlnX3U5WQ?oc=5",
-          "date": "Tue, 02 Jun 2026 07:00:00 GMT"
-        },
-        {
-          "title": "What to know about Bill C-22, Canada’s proposed lawful-access legislation",
-          "source": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTHUzcDhsTWxOMHA5X0p6cDVDeFI5bm5pNm9kR2dMclNFVDVEbVhVbll4ODJtTmUtMGNjQ2MzM1FtNXRQcTcta0xOY1IzTEx5dUZzR3hZbHAtWTFuampTU1FNUlZDWUhHS3lRcVFiVkFVQU13aVFVMmFCbmlZVmhUM04yejhVVk96LTR6T2Vn?oc=5",
-          "date": "Mon, 01 Jun 2026 07:00:00 GMT"
-        }
-      ]
     }
   ],
   "discovered": [
@@ -529,10 +427,6 @@
         {
           "label": "Full text",
           "url": "https://www.parl.ca/DocumentViewer/en/45-1/bill/S-5/first-reading"
-        },
-        {
-          "label": "Watch on ParlVU",
-          "url": "https://parlvu.parl.gc.ca/Harmony/en/"
         }
       ],
       "shortTitle": "Connected Care for Canadians Act",
