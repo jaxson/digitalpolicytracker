@@ -35,7 +35,7 @@ module.exports = {
       category: "Online Safety",
       headline: "Safe Social Media Act",
       newsQuery: '"Bill C-34" social media Canada',
-      department: { name: "Canadian Heritage", url: "https://www.canada.ca/en/canadian-heritage.html" },
+      department: { name: "Canadian Heritage", url: "https://www.canada.ca/en/canadian-heritage/services/safe-social-media-act.html" },
       whyItMatters:
         "Would restrict social media accounts for people under 16 (with a platform exemption pathway), create a Digital Safety Commission of Canada, and set safety duties for social media and AI chatbot services. Tabled June 10, 2026.",
       tags: ["under-16 ban", "Digital Safety Commission", "AI chatbots", "age verification"],
