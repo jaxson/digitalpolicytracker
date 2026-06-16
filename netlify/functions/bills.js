@@ -65,20 +65,21 @@ function shape(raw, editorial, session) {
     billNumber: num,
     legisinfoUrl: `https://www.parl.ca/legisinfo/en/bill/${session}/${num.toLowerCase()}`,
     links,
-    shortTitle: raw.ShortTitleEn || raw.LongTitleEn || "",
-    longTitle: raw.LongTitleEn || "",
-    sponsor: raw.SponsorEn || null,
+    // LEGISinfo is an official source, but scrub it anyway as defence in depth.
+    shortTitle: scrubText(raw.ShortTitleEn || raw.LongTitleEn || ""),
+    longTitle: scrubText(raw.LongTitleEn || ""),
+    sponsor: scrubText(raw.SponsorEn) || null,
     billType: raw.BillTypeEn || null,
     isGovernment: (raw.BillTypeEn || "").toLowerCase().includes("government"),
-    currentStatus: raw.CurrentStatusEn || raw.LatestCompletedMajorStageEn || null,
-    latestActivity: raw.LatestActivityEn || null,
+    currentStatus: scrubText(raw.CurrentStatusEn || raw.LatestCompletedMajorStageEn) || null,
+    latestActivity: scrubText(raw.LatestActivityEn) || null,
     latestActivityDate: raw.LatestActivityDateTime || null,
-    completedStage: raw.LatestCompletedMajorStageEn || null,
+    completedStage: scrubText(raw.LatestCompletedMajorStageEn) || null,
     royalAssent: raw.ReceivedRoyalAssentDateTime || null,
     stages,
     progress: progressPct(stages),
     category: editorial ? editorial.category : "Other digital bill",
-    headline: editorial ? editorial.headline : raw.ShortTitleEn || raw.LongTitleEn,
+    headline: editorial ? editorial.headline : scrubText(raw.ShortTitleEn || raw.LongTitleEn),
     whyItMatters: editorial ? editorial.whyItMatters : null,
     tags: editorial ? editorial.tags : [],
     curated: !!editorial,
@@ -89,6 +90,41 @@ function shape(raw, editorial, session) {
 function isDigital(raw) {
   const hay = `${raw.ShortTitleEn || ""} ${raw.LongTitleEn || ""}`.toLowerCase();
   return watchlist.discoveryKeywords.some((k) => hay.includes(k.trim()));
+}
+
+// --- Sanitization of untrusted external text ---------------------------------
+// Strip characters that don't belong in displayed text: control characters,
+// zero-width and bidirectional-control characters (used for spoofing and to hide
+// injected instructions), and the Unicode replacement character (mojibake). Real
+// accented/French characters and normal punctuation are preserved.
+function scrubText(s) {
+  if (!s) return "";
+  return String(s)
+    .normalize("NFC")
+    .replace(/[\u0000-\u001F\u007F-\u009F]/g, " ") // C0/C1 control chars
+    .replace(/[\u200B-\u200D\u2060\uFEFF]/g, "") // zero-width + word joiner + BOM
+    .replace(/[\u202A-\u202E\u2066-\u2069]/g, "") // bidi overrides/isolates
+    .replace(/\uFFFD/g, "") // replacement character (mojibake)
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Clearly offensive terms, word-bounded to avoid false positives (e.g. place names).
+const PROFANITY =
+  /\b(fuck\w*|motherfuck\w*|shit\w*|bullshit|cunt\w*|bitch\w*|bastard|asshole|arsehole|dickhead|douche\w*|jackass|wanker|twat|slut|whore|pussy|prick|faggot|nigger|nigga|retard\w*)\b/i;
+
+// Instruction-style phrasing that has no place in a news headline — drop defensively
+// so a poisoned headline can't carry an injected instruction onto the page.
+const INJECTION =
+  /(ignore\s+(all\s+|the\s+|your\s+|any\s+)?(previous|prior|above|earlier)|disregard\s+(the\s+|all\s+|any\s+|previous|above)|system\s+prompt|you\s+are\s+now|new\s+instructions|prompt\s+injection|jailbreak|do\s+anything\s+now|override\s+(your|the|all)|reveal\s+your\s+(system|prompt|instructions))/i;
+
+function isCleanNews(item) {
+  if (!item.title || item.title.length < 8) return false; // too short to be a real headline
+  if (!/^https:\/\//i.test(item.url)) return false; // links must be https
+  const hay = `${item.title} ${item.source}`;
+  if (PROFANITY.test(hay)) return false;
+  if (INJECTION.test(hay)) return false;
+  return true;
 }
 
 // --- News (Google News RSS, aggregated across outlets) -----------------------
@@ -106,11 +142,13 @@ function decodeEntities(s) {
 }
 
 function parseNews(xml, limit = 3) {
-  const items = [...xml.matchAll(/<item>(.*?)<\/item>/gs)].map((m) => m[1]);
-  return items.slice(0, limit).map((it) => {
+  const rawItems = [...xml.matchAll(/<item>(.*?)<\/item>/gs)].map((m) => m[1]);
+  const out = [];
+  for (const it of rawItems) {
+    if (out.length >= limit) break;
     const pick = (tag) => {
       const m = it.match(new RegExp(`<${tag}[^>]*>(.*?)</${tag}>`, "s"));
-      return m ? decodeEntities(m[1]) : "";
+      return m ? scrubText(decodeEntities(m[1])) : "";
     };
     let title = pick("title");
     let source = pick("source");
@@ -123,8 +161,16 @@ function parseNews(xml, limit = 3) {
       if (tail === source || tail.startsWith(source)) title = title.slice(0, idx);
     }
     const trimSep = (s) => s.replace(/[\s–—|-]+$/, "").trim();
-    return { title: trimSep(title), source: trimSep(source), url: pick("link"), date: pick("pubDate") };
-  });
+    const item = {
+      title: trimSep(title),
+      source: trimSep(source),
+      url: pick("link"),
+      date: pick("pubDate"),
+    };
+    // Drop anything carrying profanity, instruction-style text, or a bad link.
+    if (isCleanNews(item)) out.push(item);
+  }
+  return out;
 }
 
 async function fetchNews(query) {
@@ -222,3 +268,6 @@ exports.handler = async () => {
     };
   }
 };
+
+// Exposed for unit tests only; unused by the Netlify runtime (which calls handler).
+exports._internal = { scrubText, isCleanNews, parseNews };
