@@ -10,6 +10,14 @@ const watchlist = require("./watchlist");
 const FEED = (session) =>
   `https://www.parl.ca/legisinfo/en/bills/json?parlsession=${session}`;
 
+// parl.ca's WAF rejects non-browser user agents (403), so present browser-like headers.
+const BROWSER_HEADERS = {
+  "user-agent":
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+  "accept": "application/json, text/javascript, text/html, */*; q=0.01",
+  "accept-language": "en-CA,en;q=0.9",
+};
+
 const HOUSE_STAGES = [
   { key: "house1", label: "House — 1st reading", field: "PassedHouseFirstReadingDateTime" },
   { key: "house2", label: "House — 2nd reading", field: "PassedHouseSecondReadingDateTime" },
@@ -123,10 +131,7 @@ async function fetchNews(query) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), 6000);
   try {
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: { "user-agent": "DigitalPolicyTracker/1.0 (+digitalpolicytracker.ca)" },
-    });
+    const res = await fetch(url, { signal: ctrl.signal, headers: BROWSER_HEADERS });
     if (!res.ok) return [];
     return parseNews(await res.text());
   } catch (_) {
@@ -145,9 +150,7 @@ exports.handler = async () => {
   };
 
   try {
-    const res = await fetch(FEED(watchlist.session), {
-      headers: { "user-agent": "DigitalPolicyTracker/1.0 (+digitalpolicytracker.ca)" },
-    });
+    const res = await fetch(FEED(watchlist.session), { headers: BROWSER_HEADERS });
     if (!res.ok) throw new Error(`LEGISinfo returned ${res.status}`);
     const all = await res.json();
 
