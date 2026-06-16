@@ -15,7 +15,7 @@ module.exports = {
       category: "Privacy",
       headline: "Protecting Privacy and Consumer Data Act",
       newsQuery: '"Bill C-36" privacy Canada',
-      department: { name: "ISED", url: "https://ised-isde.canada.ca/site/ised/en" },
+      department: { name: "ISED", url: "https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/government-of-canada-officials-to-hold-a-media-technical-briefing-regarding-the-new-bill-entitled-an-act-to-enact-the-protecting-privacy-and-consum.html" },
       whyItMatters:
         "Overhauls federal private-sector privacy law by amending PIPEDA. Reporting describes new individual rights (including over AI-generated deepfakes), rules on automated decision-making and so-called surveillance pricing, and a restructured federal privacy regulator. Tabled June 15, 2026 by the Minister of Artificial Intelligence and Digital Innovation.",
       tags: ["PIPEDA reform", "AI & automated decisions", "consumer data", "privacy regulator"],
@@ -25,7 +25,7 @@ module.exports = {
       category: "Surveillance & Lawful Access",
       headline: "Lawful Access Act, 2026",
       newsQuery: '"Bill C-22" lawful access Canada',
-      department: { name: "Public Safety Canada", url: "https://www.canada.ca/en/public-safety-canada.html" },
+      department: { name: "Public Safety Canada", url: "https://www.canada.ca/en/public-safety-canada/news/2026/03/canada-introduces-new-tools-for-law-enforcement-to-investigate-threats-and-keep-canadians-safe.html" },
       whyItMatters:
         "Would require certain electronic service providers to retain metadata and to facilitate authorized access to information for police and intelligence agencies, with provisions on sharing with foreign governments. Revisits the lawful-access provisions originally in the Strong Borders Act (Bill C-2). The government cites investigative needs; civil-liberties groups and some technologists have raised concerns about encryption and privacy.",
       tags: ["metadata retention", "encryption", "police access", "CSIS"],
@@ -45,7 +45,7 @@ module.exports = {
       category: "Cybersecurity",
       headline: "Critical Cyber Systems Protection",
       newsQuery: '"Bill C-8" cyber security Canada',
-      department: { name: "Public Safety Canada", url: "https://www.canada.ca/en/public-safety-canada.html" },
+      department: { name: "Charter statement", url: "https://open.canada.ca/data/en/dataset/05a156cd-3373-48eb-8b22-49c254f7dcfe" },
       whyItMatters:
         "Amends the Telecommunications Act and establishes cybersecurity requirements and incident-reporting duties for operators of designated critical infrastructure such as telecoms, finance and energy.",
       tags: ["critical infrastructure", "Telecommunications Act", "incident reporting"],

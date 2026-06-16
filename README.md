@@ -1,4 +1,4 @@
-# Digital Policy Tracker
+# Canadian Digital Policy Tracker
 
 A real-time tracker for the bills shaping Canada's digital future — lawful access,
 online safety, cybersecurity and privacy. Legislative status is pulled directly from
