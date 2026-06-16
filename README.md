@@ -26,13 +26,12 @@ Intended home: **digitalpolicytracker.ca**
 
 ## Currently tracked
 
-| Bill | Title | Theme |
-|------|-------|-------|
-| C-36 | Protecting Privacy and Consumer Data Act (PIPEDA reform) | Privacy |
-| C-22 | Lawful Access Act, 2026 | Surveillance & lawful access |
-| C-34 | Safe Social Media Act | Online safety |
-| C-8  | Critical Cyber Systems Protection | Cybersecurity |
-| C-2  | Strong Borders Act | Border & data |
+| Bill | Title | Theme | Lead department |
+|------|-------|-------|-----------------|
+| C-36 | Protecting Privacy and Consumer Data Act (PIPEDA reform) | Privacy | ISED |
+| C-22 | Lawful Access Act, 2026 | Surveillance & lawful access | Public Safety Canada |
+| C-34 | Safe Social Media Act | Online safety | Canadian Heritage |
+| C-8  | Critical Cyber Systems Protection | Cybersecurity | Public Safety Canada |
 
 ## Add or change a bill
 
