@@ -202,31 +202,44 @@ h1 {
   animation: aiReveal .22s ease;
 }
 @keyframes aiReveal { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
-.ai-overview { margin: 0 0 14px; font-size: .98rem; color: var(--ink); }
-.ai-points-head {
-  font-family: "Helvetica Neue", Arial, sans-serif; font-size: .72rem;
-  text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 8px;
+.ai-kicker {
+  margin: 0 0 6px; font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--accent);
 }
-.ai-points { margin: 0 0 14px; padding-left: 18px; }
-.ai-points li { font-size: .92rem; color: var(--ink-soft); margin-bottom: 8px; }
+.ai-overview {
+  margin: 0 0 16px; font-size: 1.04rem; line-height: 1.5; color: var(--ink);
+  max-width: 78ch;
+}
+.ai-body { margin-bottom: 4px; }
+.ai-sec { margin-bottom: 16px; break-inside: avoid; }
+.ai-sec:last-child { margin-bottom: 0; }
+.ai-h {
+  font-family: "Helvetica Neue", Arial, sans-serif; font-size: .72rem;
+  text-transform: uppercase; letter-spacing: .08em; color: var(--accent);
+  margin: 0 0 7px;
+}
+.ai-para { margin: 0 0 9px; font-size: .94rem; line-height: 1.5; color: var(--ink-soft); }
+.ai-para:last-child { margin-bottom: 0; }
+.ai-points { margin: 6px 0 0; padding-left: 18px; }
+.ai-points li { font-size: .92rem; line-height: 1.45; color: var(--ink-soft); margin-bottom: 7px; }
 .ai-points li:last-child { margin-bottom: 0; }
 .ai-caveat {
-  margin: 0; padding-top: 12px; border-top: 1px dotted var(--line);
+  margin: 14px 0 0; padding-top: 12px; border-top: 1px dotted var(--line);
   font-family: "Helvetica Neue", Arial, sans-serif; font-size: .76rem;
   color: var(--muted); font-style: italic;
 }
 
-/* Expanded card spans the full content area (grows sideways, not just down) */
-.card.ai-open { grid-column: 1 / -1; }
+/* Expanded card spans the full content area and jumps to the top of the list */
+.card.ai-open { grid-column: 1 / -1; order: -1; }
 .card.ai-open .long-title,
-.card.ai-open .why,
-.card.ai-open .ai-overview { max-width: 80ch; }
+.card.ai-open .why { max-width: 80ch; }
+/* Lay the brief's sections into columns to use the full width, like a printed brief */
 @media (min-width: 720px) {
-  .card.ai-open .ai-points { columns: 2; column-gap: 40px; }
-  .card.ai-open .ai-points li { break-inside: avoid; }
+  .card.ai-open .ai-body { column-count: 2; column-gap: 44px; }
 }
-@media (min-width: 1080px) {
-  .card.ai-open .ai-points { columns: 3; }
+@media (min-width: 1100px) {
+  .card.ai-open .ai-body { column-count: 3; }
 }
 
 /* News */

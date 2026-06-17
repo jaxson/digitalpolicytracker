@@ -117,17 +117,39 @@ function renderCard(bill) {
   });
   if (!bill.tags || !bill.tags.length) tags.remove();
 
-  // AI summary (expandable)
+  // AI summary (expandable policy brief)
   const aiWrap = node.querySelector(".ai-summary");
   if (bill.aiSummary && bill.aiSummary.overview) {
     const btn = aiWrap.querySelector(".ai-summary-btn");
     const panel = aiWrap.querySelector(".ai-summary-panel");
     aiWrap.querySelector(".ai-overview").textContent = bill.aiSummary.overview;
-    const pts = aiWrap.querySelector(".ai-points");
-    (bill.aiSummary.points || []).forEach((p) => {
-      const li = document.createElement("li");
-      li.textContent = p;
-      pts.appendChild(li);
+    const body = aiWrap.querySelector(".ai-body");
+    (bill.aiSummary.sections || []).forEach((sec) => {
+      const block = document.createElement("section");
+      block.className = "ai-sec";
+      if (sec.heading) {
+        const h = document.createElement("h5");
+        h.className = "ai-h";
+        h.textContent = sec.heading;
+        block.appendChild(h);
+      }
+      (sec.paras || []).forEach((p) => {
+        const el = document.createElement("p");
+        el.className = "ai-para";
+        el.textContent = p;
+        block.appendChild(el);
+      });
+      if (sec.points && sec.points.length) {
+        const ul = document.createElement("ul");
+        ul.className = "ai-points";
+        sec.points.forEach((pt) => {
+          const li = document.createElement("li");
+          li.textContent = pt;
+          ul.appendChild(li);
+        });
+        block.appendChild(ul);
+      }
+      body.appendChild(block);
     });
     aiWrap.querySelector(".ai-caveat").textContent = bill.aiSummary.caveat || "";
     btn.addEventListener("click", () => {
@@ -135,9 +157,15 @@ function renderCard(bill) {
       btn.setAttribute("aria-expanded", String(!open));
       panel.hidden = open;
       aiWrap.classList.toggle("open", !open);
-      // Expanded card spans the full content width (grows sideways, not just down).
+      // Expanded card spans the full content width and moves to the top, pushing the
+      // other bills below it; collapsing returns it to its place in the grid.
       card.classList.toggle("ai-open", !open);
       btn.querySelector(".ai-btn-label").textContent = open ? "AI summary" : "Hide AI summary";
+      if (!open) {
+        requestAnimationFrame(() =>
+          card.scrollIntoView({ behavior: "smooth", block: "start" })
+        );
+      }
     });
   } else {
     aiWrap.remove();
