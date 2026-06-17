@@ -216,6 +216,19 @@ h1 {
   color: var(--muted); font-style: italic;
 }
 
+/* Expanded card spans the full content area (grows sideways, not just down) */
+.card.ai-open { grid-column: 1 / -1; }
+.card.ai-open .long-title,
+.card.ai-open .why,
+.card.ai-open .ai-overview { max-width: 80ch; }
+@media (min-width: 720px) {
+  .card.ai-open .ai-points { columns: 2; column-gap: 40px; }
+  .card.ai-open .ai-points li { break-inside: avoid; }
+}
+@media (min-width: 1080px) {
+  .card.ai-open .ai-points { columns: 3; }
+}
+
 /* News */
 .news { margin: 0 0 18px; padding: 14px 0 4px; border-top: 1px dotted var(--line); }
 .news-head {

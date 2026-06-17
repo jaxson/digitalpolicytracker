@@ -135,6 +135,8 @@ function renderCard(bill) {
       btn.setAttribute("aria-expanded", String(!open));
       panel.hidden = open;
       aiWrap.classList.toggle("open", !open);
+      // Expanded card spans the full content width (grows sideways, not just down).
+      card.classList.toggle("ai-open", !open);
       btn.querySelector(".ai-btn-label").textContent = open ? "AI summary" : "Hide AI summary";
     });
   } else {
