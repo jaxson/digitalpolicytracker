@@ -1,6 +1,6 @@
 {
   "session": "45-1",
-  "generatedAt": "2026-06-17T16:21:13.070Z",
+  "generatedAt": "2026-06-19T19:15:31.847Z",
   "source": "Parliament of Canada — LEGISinfo · news via Google News",
   "tracked": [
     {
@@ -93,16 +93,16 @@
           "date": "Mon, 15 Jun 2026 22:41:20 GMT"
         },
         {
-          "title": "Canada's Bill C-36 introduces privacy reforms, enforcement changes",
-          "source": "IAPP",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZG0zY1JGZWZVNjdjMnBXeXY0M2V2dmRkaGR1RWxuWmRsX2JNYnBmVzZrYVdSY2ppUVUwNk5qYWFoQzRVc0duNU1mS3hMWUJDSmkzdHFrT3V0a3NTUHJSZ0UwYXBkbUg1Q01nN2NSbzRxc1lUTkNaV2Nwdl84LTcwbmhfcm15am1FeEhmOUxCUmRtY0k?oc=5",
-          "date": "Tue, 16 Jun 2026 17:53:03 GMT"
-        },
-        {
           "title": "Bill C-36 proposes empty privacy protections, broad exceptions for corporate data exploitation, and little to address AI harms",
           "source": "Canadian Civil Liberties Association",
           "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZUZsVWxPTTJlREl3QzNXb09qMmdNN2FPeW9sNVNhZEsxc3V2dHR2MGRwaEZ6ZnlJMHB5UWstMjk3Y2lwLTlRTHBHSFdVbXY0aVFqbjAyUkVwQUU3aTZXOE9LTmY1SnEwMHZQV2hGZ3FJUTI2cWlrM1FOZzVJS3pDTzctWDBfMjE1NWZlZE41bXdseHRDX29pd1NSd3M3WUQxanc3RGNpcE5JSTdHZXdhWXJrNnZZX2RZZ0pfbFdGa2pNLVRnOFhLN3NLZDNhNHBQdjcwNll0T1dzUEN6bXN2cEhCMmw2UXJGamZnaDlwYTZWYTZGSVNoSnAzQzBHY1hJR1lZZEV5RWZUQ2JM?oc=5",
           "date": "Tue, 16 Jun 2026 21:53:54 GMT"
+        },
+        {
+          "title": "Canada's Bill C-36 introduces privacy reforms, enforcement changes",
+          "source": "IAPP",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZG0zY1JGZWZVNjdjMnBXeXY0M2V2dmRkaGR1RWxuWmRsX2JNYnBmVzZrYVdSY2ppUVUwNk5qYWFoQzRVc0duNU1mS3hMWUJDSmkzdHFrT3V0a3NTUHJSZ0UwYXBkbUg1Q01nN2NSbzRxc1lUTkNaV2Nwdl84LTcwbmhfcm15am1FeEhmOUxCUmRtY0k?oc=5",
+          "date": "Tue, 16 Jun 2026 17:53:03 GMT"
         }
       ],
       "aiSummary": {
@@ -171,10 +171,10 @@
       "sponsor": "Hon. Gary Anandasangaree",
       "billType": "House Government Bill",
       "isGovernment": true,
-      "currentStatus": "At consideration in committee in the House of Commons",
-      "latestActivity": "Second reading and referral to committee on April 20, 2026 (House of Commons)",
-      "latestActivityDate": "2026-04-20T14:15:55-04:00",
-      "completedStage": "Second reading",
+      "currentStatus": "House of Commons bill awaiting first reading in the Senate",
+      "latestActivity": "Third reading on June 18, 2026 (House of Commons)",
+      "latestActivityDate": "2026-06-18T07:16:50.057-04:00",
+      "completedStage": "Third reading",
       "royalAssent": null,
       "stages": [
         {
@@ -192,14 +192,14 @@
         {
           "key": "house3",
           "label": "House — 3rd reading",
-          "complete": false,
-          "date": null
+          "complete": true,
+          "date": "2026-06-18T07:16:50.057-04:00"
         },
         {
           "key": "senate1",
           "label": "Senate — 1st reading",
-          "complete": false,
-          "date": null
+          "complete": true,
+          "date": "2026-06-18T06:10:00-04:00"
         },
         {
           "key": "senate2",
@@ -220,7 +220,7 @@
           "date": null
         }
       ],
-      "progress": 29,
+      "progress": 57,
       "category": "Surveillance & Lawful Access",
       "headline": "Lawful Access Act, 2026",
       "whyItMatters": "Would require certain electronic service providers to retain metadata and to facilitate authorized access to information for police and intelligence agencies, with provisions on sharing with foreign governments. Revisits the lawful-access provisions originally in the Strong Borders Act (Bill C-2). The government cites investigative needs; civil-liberties groups and some technologists have raised concerns about encryption and privacy.",
@@ -233,22 +233,22 @@
       "curated": true,
       "news": [
         {
-          "title": "Government Moves to Shut Down Lawful Access Hearing In Order To Fast Track Passing the Bill This Week",
-          "source": "Michael Geist",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSkNCX0l5UVpSeElnMWlIZkg2ZGxGMmlHMkpWN3M2RFhQdjJjdU5pN0tQOEh6eHZWRGlzSkQyblJQanNzc3kzeTN1VG1pRG5laEhxQlBmZVlYN3Jwbjd6SkFpd29vTXEzMkIwSVBnYjEtdnBKdkdnbW12dFdWS0xzUHBpbGtEaUlSRm1HREo3TlVMS0YzN2lmUW9zTTZQV21pUWRwVVpsTHZwdEtXSzhfVlE3MnZKS1I2ZDJSRkw5NmZNNDJvQ01qbGtub2RuX2xMNGp1dA?oc=5",
-          "date": "Tue, 16 Jun 2026 18:06:49 GMT"
-        },
-        {
           "title": "Conservatives blast Liberals for trying to 'ram' controversial lawful access bill through House",
           "source": "CBC",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRkJCbVZ3WW8wd2o3azVia2VMT1h3OFBsWGczNXBRc2JzbTdTdjBYU1V6NmZfNExrWGVpRll3NnFWcFYya25UTTBVcGtSNWxzdlUwY0ZCVGRUSklUS2puR19yQzBKNWRobVQ5WXp5dDZTajJGckZyamR4T1VSUHhWM0s0aEZUcWRXX3pNTGV3?oc=5",
           "date": "Tue, 16 Jun 2026 23:32:44 GMT"
         },
         {
-          "title": "Ottawa moves to curb debate to push through controversial lawful access bill",
-          "source": "The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHp1MkpnWmM2bVVWbDBSZlFqNm5WeDZaY3FIWGJvenVwSmtaRm92b3kzcldEUDNBMVFjUmVLSGdtVXNXQjlPRkx0RXRVMXVfTm9qb19iMFAyeV9VYmVNWEhrbTdqeU9YM0tMNDBmdTlHbXNIclMwLUNsTGViMlpYaU9ERExDd2ktVnlKRnZWN2lDVU5waUhvdkhR?oc=5",
-          "date": "Tue, 16 Jun 2026 17:46:40 GMT"
+          "title": "Government Moves to Shut Down Lawful Access Hearing In Order To Fast Track Passing the Bill This Week",
+          "source": "Michael Geist",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSkNCX0l5UVpSeElnMWlIZkg2ZGxGMmlHMkpWN3M2RFhQdjJjdU5pN0tQOEh6eHZWRGlzSkQyblJQanNzc3kzeTN1VG1pRG5laEhxQlBmZVlYN3Jwbjd6SkFpd29vTXEzMkIwSVBnYjEtdnBKdkdnbW12dFdWS0xzUHBpbGtEaUlSRm1HREo3TlVMS0YzN2lmUW9zTTZQV21pUWRwVVpsTHZwdEtXSzhfVlE3MnZKS1I2ZDJSRkw5NmZNNDJvQ01qbGtub2RuX2xMNGp1dA?oc=5",
+          "date": "Tue, 16 Jun 2026 18:06:49 GMT"
+        },
+        {
+          "title": "Liberals dismiss ‘tinfoil hat’ privacy fears as lawful access bill passes",
+          "source": "Global News",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVERuN1J2bnlSVGlzZ2ZyS2YxSXd0a3lPNl9sdS1SY0ptUm1QT09SV0pKclI5SEFLUlVkOFktaDUzTE1oTUI0UEVEZlU2WjVGQTA1cjZSbWZnSEYzTE1XQUdJUnlSamVQaHVwYXlhbnJnZ1R6OTBmVUUtbzJ3ckJrWmhLMEQ3ejRhcG94RGd5S29ZdlFLT0E?oc=5",
+          "date": "Thu, 18 Jun 2026 21:57:45 GMT"
         }
       ],
       "aiSummary": {
@@ -265,8 +265,9 @@
             "points": [
               "Part 1 amends the Criminal Code, the CSIS Act, the Mutual Legal Assistance in Criminal Matters Act, the Controlled Drugs and Substances Act and the Cannabis Act to modernize tools for obtaining data in investigations.",
               "Part 2 enacts the Supporting Authorized Access to Information Act, requiring electronic service providers to be technically able to facilitate authorized access to information for police and CSIS.",
+              "An explicit clause states the Act does not compel a provider to decrypt information unless the provider itself supplied the encryption and holds the key — added to answer concerns that the bill would weaken encryption.",
+              "The government has signalled it will not retreat from requiring providers to retain up to a year of metadata — a central point of contention.",
               "New access orders are subject to approval by the Intelligence Commissioner before taking effect.",
-              "The government states the bill does not require encryption 'backdoors' or the weakening of electronic protections.",
               "Part 3 requires a parliamentary review of Parts 1 and 2 in the third year after they come into force."
             ]
           },
@@ -280,14 +281,14 @@
           {
             "heading": "Debate and positions",
             "paras": [
-              "The government cites investigative needs and public safety in the digital age. Civil-liberties groups, academic researchers (including the Citizen Lab) and commentators have warned about effects on encryption, cybersecurity and privacy, with particular attention to metadata.",
-              "Major technology firms have also raised concerns in reporting. The sponsoring minister has signalled openness to amendments clarifying encryption protections and what metadata must be retained."
+              "The government cites investigative needs and public safety in the digital age. Civil-liberties groups, academic researchers (including the Citizen Lab) and major technology firms have warned about effects on encryption, cybersecurity and privacy, with particular attention to the metadata-retention requirement.",
+              "The bill's passage through the House was itself contentious: the government used time-allocation measures to limit debate and compress committee study, and opposition MPs accused it of rushing the legislation and blocking further amendments."
             ]
           },
           {
             "heading": "Where it stands & what's next",
             "paras": [
-              "Tabled March 12, 2026 by the Minister of Public Safety and referred to committee after second reading. The committee stage — and any government amendments on encryption and metadata — will shape whether the bill's most contested elements survive."
+              "The House passed C-22 at third reading on June 18, 2026, and it has moved to the Senate. Senators will study and may further amend it, with royal assent following Senate passage. Watch the Senate stage, where encryption and the metadata-retention requirement are likely to be re-examined."
             ]
           }
         ],
@@ -384,16 +385,16 @@
           "date": "Tue, 16 Jun 2026 19:51:46 GMT"
         },
         {
-          "title": "CCLA warns against risks to freedom of expression and privacy posed by Bill C-34, the Safe Social Media Act",
-          "source": "Canadian Civil Liberties Association",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXNtdUZGM3NXWDBERm5xMzdoMlRLb09pZDZpQkpIbVNpYUxQMkZFVlpHWTNaMENZYkU0ZjlXSmNCZlBzLVVTUzFCRDFUb1NlYU9xOTlIUVlxdzJYdGFfeWNSbmxjVTdNRl9xcWk3ZWNpSkNEZ1RueGU5d0prU01zRWk1Wm0wb0I4X0h5dlFuMjh0M0FBOWZOMy1XdW5CQUZ2ZUxmcVo1SEhDNmFCMmd5LVRCMFFEVGM1YTg3djlXbG9OTXI4MWhUeGViNk04Q0RlT05fSA?oc=5",
-          "date": "Thu, 11 Jun 2026 14:00:39 GMT"
+          "title": "The Commission: How Bill C-34 Creates an Internet Super-Regulator That Will Touch the Lives of Millions of Canadians",
+          "source": "Michael Geist",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hdlhLQVdmUVE1Njc4VUd3LXVVNUhQTFRsUWI1WTVRLWpiSUU5X1pkeDEyNHZkVGJ3Q29qTWV1RGg0Mzd5TzFKN0E2U2pXdDZMYXR5Vk82cTZvaDRjcUJj?oc=5",
+          "date": "Mon, 15 Jun 2026 14:24:14 GMT"
         },
         {
-          "title": "Everything All At Once: Bill C-34 Combines Platform Duties, a Kids' Social Media Ban, AI Chatbot Regulation, and a Powerful Digital Safety Commission Into a Risky \"Trust Us\" Bet",
-          "source": "Michael Geist",
-          "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQRTdPWmpiLVpKN3lnd0NxX1RNeXNLcXJ6RVB3T1ZJbkVGYVlzS2U3UXJzMFdhYlVWNGNxekdWUjFzNE9Ia0hadVBxWFZKdzE5RV9BN2VULUotTm82VVRhYWNSeTY0R1dXbTcwcGJYd0VlcGhoYXR1VlZjbHlMRXNJQnBHdTJoa2M5azg4ZHNtOVFGcVBEczRZbDhHa1VHYWdwTExDeDRtQTVwMnlRMV9HajNmV0llZVhSeHp0SEV2NWdXVkJuT1Nibk9SazhrU0hRTHRwaC1yRHl2RU9tMzlrSnVSQXQzbGI0bEFVNE9uNFZSOGVtVXhxbWVseHlxYnp0dU11a0dmc1ltVWN2SEFBem1CLTVaSWNJQ3puaW9NbFJpcG9ZMmR2bWFqeW9kODVi?oc=5",
-          "date": "Wed, 10 Jun 2026 23:10:12 GMT"
+          "title": "Canada moves to regulate online safety: Understanding the Safe Social Media Act (Bill C-34)",
+          "source": "Borden Ladner Gervais LLP (BLG)",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVBQNzhEWUl5Y1VOanZhT0JrSjlBRG83cXJDR1l3UkJub3pOV1pjLUMtcU1yaGMyeXFCcEp1TlFjMkVvM0NQTFNJYVJJQ2hCbDFpeWx6eHNXSEpUaERxdzFNNmFvMkRjLUNKOGZWRVIxbnh5RE5pT2dQWkxubDhLMTN5eldXVjl1c2xkR2RLaUVhOXlqbEJqQlZ4T2JGQy04bG9ZNURneHJxdmc1QmxGdi1EUmFndlFIa08zT3pySi1WaEpGYVE?oc=5",
+          "date": "Wed, 17 Jun 2026 23:29:03 GMT"
         }
       ],
       "aiSummary": {
@@ -430,7 +431,7 @@
           {
             "heading": "Where it stands & what's next",
             "paras": [
-              "Tabled June 10, 2026 by the Minister of Canadian Identity and Culture and at first reading. Officials have signalled that, even if passed, the under-16 rules would realistically take effect around 2027–2028, after the new commission is established. Watch the committee study and how age-verification details are defined."
+              "Tabled June 10, 2026 by the Minister of Canadian Identity and Culture and now at second reading in the House, where it is drawing detailed analysis from legal and digital-policy experts. Officials have signalled that, even if passed, the under-16 rules would realistically take effect around 2027–2028, after the new commission is established. Watch the committee study and how the mandated age-verification details are defined."
             ]
           }
         ],
@@ -520,10 +521,10 @@
       "curated": true,
       "news": [
         {
-          "title": "Government of Canada Strengthens Cyber Security and Critical Infrastructure with Royal Assent of Bill C‑8",
-          "source": "Yahoo Finance Singapore",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnZFVFEwR1Y0eDVRZzZsa0dwNE5adG1TV0RPVllOSDNzbFR4Ui1jODhfZXA2YWF1QXVoSGlrY1VzNk1hUzFLX25OazlUNjhHQlZERDRja2Z2cjJiRWI1SEdaT0luZi1vQTdiazhBb25WMjg0MV82Zmt1YXIzY053b3VBNnVDU2ozOUU5WXdDVmhaVmlnQTNQZA?oc=5",
-          "date": "Tue, 16 Jun 2026 13:34:00 GMT"
+          "title": "Canada’s Bill C-8: what businesses need to know about the new cybersecurity framework",
+          "source": "Osler, Hoskin & Harcourt LLP",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdEpzNkhoaVpMSS1QdjAzdlh6TWdYbi1CcGdxdjB0dWlaTXN4Tk1tOXM4cEM5Y0ZZemtZaFRDOGUwcXJ1QmJzcGZSdHVYVE1tXzFXcjI1VjZKdUVyam5vbGY0N2tQWWExemtBTW5wZWJ4dkRmSHBnSWNLcmNBNE1YbDhlVXRaSGtwcndNdkxnS09Rc3NSYWNhTnZ4bUdXZVh6ZmFEelhXSkJFaHBkUVVrdnFtTXJweWtFamlydXNHQzFfSXU2?oc=5",
+          "date": "Wed, 17 Jun 2026 17:22:22 GMT"
         },
         {
           "title": "Bill C‑8 Passes House of Commons Following Substantive Amendments and Speaker’s Ruling",
@@ -663,16 +664,16 @@
           "date": "Fri, 06 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Health Minister Introduces Bill to Modernize Digital Health Services",
-          "source": "CPAC.ca",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTHhSMy1OSVJHZ3h2VUR0aTdhMkF1UC1Xa1dPeWtlV2dqbHFYckJub3VUbWg1N1F2TmVRV3JYQVB2dVZraWJoenVfWUFzMHB5Um1OVElMcC04cFBqdU9YZkJ3TmlqMHBnc19YQk02U2ZMQm5QMkRXQk1GRjc0NEdNMGRVa2dUSlBraU1DSDZiMEZnVHJ4MFdhd0NndklkbmVfR3VYVDZxbDc1SFJNU1BmMnRYZlR2dUFPX1lQdThXYXVYbU9Wb1VEMURzaGVPTVpxSFNfUHR3V3VGZDgwa0xValFDbUMzaGxmZFE?oc=5",
+          "title": "The Government of Canada introduces legislation to build a more connected health care system",
+          "source": "canada.ca",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPeGxxRVpXR3MySGlNVGsyYXJsd1JhSHFaNXBZV082T3RibG5IZW4wbnNxZXJtRWh5V0N4RFNCdDFMTWpwVUN3NENwVUlNd3dpeTBKQ1poS2JheWtTcno4Umc5bXd1VGN3SGdkTlFKTXZPV1dQYUFzSXdnSVgxVGMxckxOZW1ISU04MTZHLTBqQVVibEc1M3NENmo4c1FIbFpPa0ZrMGlmMUNySGkwblVFdElrNElIdXpaZVVBSzU4Qng3R2VUMVdHektPZEc0MjNxcGJtSW1GaTY4aVpMbldsNXdNdw?oc=5",
           "date": "Wed, 04 Feb 2026 08:00:00 GMT"
         },
         {
-          "title": "Canadian Cancer Society applauds introduction of Connected Care for Canadians Act",
-          "source": "Canadian Cancer Society",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSndMdGZnQ3BvY2I2TkFxc2RXc0gtREVBSlk3UG5nZ1ZFMHlkMmVxbm5KT1FHeGR4N01pMVR3Nk05Z1lQTWIzQzN3TURrS3BBLURLY2JuMjNuQXdWNkJ3SmI5NHoxTFFHX0hPbWxBck0tQTVUUnU1cWp6RVZ1QkhhSm9TbFFaUDlveFE?oc=5",
-          "date": "Thu, 05 Feb 2026 08:00:00 GMT"
+          "title": "Senator Joan Kingston Topic Intervention 684892 - 32",
+          "source": "SenCanada.ca",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MWXhGVGV0SkRJdGZCVUxSS3RxRFh5M3FnSkNpaTc0UWVmUTA5T3VuWnhBczZ0TmhKVW1pWG9mNm11SThaU21fM3FraTB6NVJxazhQV3VleVdnckNLYTNCak5YaEJMVUVFT0NvamljOUNIV3c0MGV1X253?oc=5",
+          "date": "Tue, 24 Feb 2026 08:00:00 GMT"
         }
       ]
     }

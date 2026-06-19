@@ -71,8 +71,9 @@ const summaries = {
         points: [
           "Part 1 amends the Criminal Code, the CSIS Act, the Mutual Legal Assistance in Criminal Matters Act, the Controlled Drugs and Substances Act and the Cannabis Act to modernize tools for obtaining data in investigations.",
           "Part 2 enacts the Supporting Authorized Access to Information Act, requiring electronic service providers to be technically able to facilitate authorized access to information for police and CSIS.",
+          "An explicit clause states the Act does not compel a provider to decrypt information unless the provider itself supplied the encryption and holds the key — added to answer concerns that the bill would weaken encryption.",
+          "The government has signalled it will not retreat from requiring providers to retain up to a year of metadata — a central point of contention.",
           "New access orders are subject to approval by the Intelligence Commissioner before taking effect.",
-          "The government states the bill does not require encryption 'backdoors' or the weakening of electronic protections.",
           "Part 3 requires a parliamentary review of Parts 1 and 2 in the third year after they come into force.",
         ],
       },
@@ -86,14 +87,14 @@ const summaries = {
       {
         heading: "Debate and positions",
         paras: [
-          "The government cites investigative needs and public safety in the digital age. Civil-liberties groups, academic researchers (including the Citizen Lab) and commentators have warned about effects on encryption, cybersecurity and privacy, with particular attention to metadata.",
-          "Major technology firms have also raised concerns in reporting. The sponsoring minister has signalled openness to amendments clarifying encryption protections and what metadata must be retained.",
+          "The government cites investigative needs and public safety in the digital age. Civil-liberties groups, academic researchers (including the Citizen Lab) and major technology firms have warned about effects on encryption, cybersecurity and privacy, with particular attention to the metadata-retention requirement.",
+          "The bill's passage through the House was itself contentious: the government used time-allocation measures to limit debate and compress committee study, and opposition MPs accused it of rushing the legislation and blocking further amendments.",
         ],
       },
       {
         heading: "Where it stands & what's next",
         paras: [
-          "Tabled March 12, 2026 by the Minister of Public Safety and referred to committee after second reading. The committee stage — and any government amendments on encryption and metadata — will shape whether the bill's most contested elements survive.",
+          "The House passed C-22 at third reading on June 18, 2026, and it has moved to the Senate. Senators will study and may further amend it, with royal assent following Senate passage. Watch the Senate stage, where encryption and the metadata-retention requirement are likely to be re-examined.",
         ],
       },
     ],
@@ -134,7 +135,7 @@ const summaries = {
       {
         heading: "Where it stands & what's next",
         paras: [
-          "Tabled June 10, 2026 by the Minister of Canadian Identity and Culture and at first reading. Officials have signalled that, even if passed, the under-16 rules would realistically take effect around 2027–2028, after the new commission is established. Watch the committee study and how age-verification details are defined.",
+          "Tabled June 10, 2026 by the Minister of Canadian Identity and Culture and now at second reading in the House, where it is drawing detailed analysis from legal and digital-policy experts. Officials have signalled that, even if passed, the under-16 rules would realistically take effect around 2027–2028, after the new commission is established. Watch the committee study and how the mandated age-verification details are defined.",
         ],
       },
     ],
